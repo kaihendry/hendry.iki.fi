@@ -9,4 +9,5 @@ pre {color: white; background: black; }
 
 /* Blog prettier */
 .meta { font-size: 60%;}
+.post {float: right; }
 .menu {float: right; }
