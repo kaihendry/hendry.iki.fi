@@ -56,7 +56,7 @@
 	<dt>Office telephone</dt>
 		<dd>+358-9-19144225</dd>
 
-    <dt><acronym title="GNU Privacy Guard">GPG</acronym>GPG/<acronym title="Pretty Good Privacy">PGP</acronym> Public key</dt>
+    <dt><acronym title="GNU Privacy Guard">GPG</acronym>/<acronym title="Pretty Good Privacy">PGP</acronym> Public key</dt>
         <dd><a href="hendry.pub">gpg --keyserver wwwkeys.pgp.net --recv-keys 22341978</a></dd>
 
     <dt><acronym title="Inter Relay Chat">IRC</acronym> nick</dt>
@@ -67,7 +67,7 @@
 &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#097;&#109;&#101;&#115;&#115;&#097;&#103;&#101;&#046;&#100;&#101;
     </dd>
 
-    <dt><abbr title="I seek you">ICQ</abbr>ICQ <acronym title="User Identity Number">UIN</acronym></dt>
+    <dt><abbr title="I seek you">ICQ</abbr><acronym title="User Identity Number">UIN</acronym></dt>
     <dd>238(I prefer Jabber peeps)6684</dd>
 </dl>
 
