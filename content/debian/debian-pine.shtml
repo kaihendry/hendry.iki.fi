@@ -1,0 +1,54 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html lang="en">
+<head>
+  <meta name="author" content="Kai Hendry">
+  <meta name="copyright" content="&copy; copyright 2002 by Kai Hendry">
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rev="made" href="mailto:hendry@cs.helsinki.fi">
+<link rel="stylesheet" type="text/css" href="http://www.cs.helsinki.fi/u/hendry/simpstyle.css" media="all">
+
+  <title>Debian PINE PICO HOWTO</title>
+</head>
+<body>
+
+<h1>Debian PINE PICO HOWTO</h1>
+
+<p>Debian packages (.deb) for pine and pico is an easy process. Now as "root":
+</p>
+
+<pre>apt-get install pine-tracker</pre>
+
+<p>Reveals /usr/share/doc/pine-tracker/README that tells you how:</p>
+
+<pre>
+pine-tracker
+------------
+
+This package warns you about outdated pine packages in your system.
+It compares its own version against the installed version of pine, pico, etc.
+and suggests the user to update those packages if old packages are found.
+
+Follows the recipe given by postinst, in case you want to read it here:
+
+To update the packages built from the pine source, make sure you have
+source URIs in /etc/apt/sources.list and run the following commands,
+as root, in a scratch directory:
+
+# apt-get --only-source build-dep pine
+# apt-get --only-source -b source pine
+
+Then use dpkg -i to install the generated debian packages.
+</pre>
+
+<p> It downloads it and compiles it! It conforms to pine's license and these
+actions compile pine into binaries on your own machine, making it a little bit
+quicker than vanilla distributions of them. </p>
+
+<p>Moral of the story:</p>
+<h1>DEBIAN RULES AND RPM BASED DISTS SUCK ASS</h1>
+
+<!--#include virtual="../../footer.inc" -->
+
+</body>
+</html>

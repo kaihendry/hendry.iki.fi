@@ -1,0 +1,11 @@
+bilbo:/var/log# cat ppp-connect-errors 
+pppoe: Packet too short from PPP (asyncReadFromPPP)
+pppoe: Timeout waiting for PADO packets
+pppoe: Timeout waiting for PADO packets
+pppoe: Timeout waiting for PADO packets
+pppoe: Timeout waiting for PADO packets
+pppoe: Timeout waiting for PADO packets
+bilbo:/var/log# /usr/sbin/pppoe -I eth0 -T 80 -m 1412
+PADS: System-Error: No more sessions allowed for this host
+bilbo:/var/log# 
+

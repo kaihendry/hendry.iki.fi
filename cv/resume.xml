@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.docbook.org/xml/4.1.2/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Curriculum Vitae</title>
+    <author>
+      <firstname>Kai</firstname>
+      <surname>Hendry</surname>
+    </author>
+    <releaseinfo>$Id: resume.xml 212 2004-01-08 08:54:34Z hendry $</releaseinfo>
+  </articleinfo>
+  <section>
+    <title>Personal Details</title>
+    <informaltable>
+      <tgroup cols="2">
+        <tbody>
+          <row>
+            <entry>Name:</entry>
+            <entry>Kai Ian Hendry</entry>
+          </row>
+          <row>
+            <entry>Permanent address:</entry>
+            <entry>Praze Farm, Millpool, Cardinham, Cornwall, PL30 4HZ, UK.</entry>
+          </row>
+          <row>
+            <entry>Term time address:</entry>
+            <entry>Porthaninkatu 4B 38, 00530, Helsinki, Finland.</entry>
+          </row>
+          <row>
+            <entry>Date of Birth:</entry>
+            <entry>3rd of June, 1978</entry>
+          </row>
+          <row>
+            <entry>Marital Status:</entry>
+            <entry>Single</entry>
+          </row>
+          <row>
+            <entry>Nationality:</entry>
+            <entry>British</entry>
+          </row>
+          <row>
+            <entry>Email:</entry>
+            <entry>
+              <email>hendry@cs.helsinki.fi</email>
+            </entry>
+          </row>
+          <row>
+            <entry>Homepage:</entry>
+            <entry>
+              <ulink url="http://www.cs.Helsinki.fi/u/hendry/">http://www.cs.Helsinki.fi/u/hendry/</ulink>
+            </entry>
+          </row>
+          <row>
+            <entry>Mobile:</entry>
+            <entry>+358408367733</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+  <section>
+    <title>Career Goals</title>
+    <para>
+
+      Particular focus on Internet based consulting and technologies. I possess
+a keen motivation to develop, use and support open source software.  Moreover,
+I am interested in working with companies that value broad and in-depth
+technical knowledge, as well as business sense.
+
+    </para>
+  </section>
+  <section>
+    <title>Education</title>
+    <section>
+      <title>University of Helsinki</title>
+      <para>
+	Currently enrolled on a <ulink url="http://www.cs.Helsinki.fi/">Computer Science</ulink>
+	Masters program at the Faculty of Science with a minor in
+	Management. Approximate Finnish credits including pending, 137
+	or 220 ECTS.  Due to graduate early 2004.
+</para>
+      <para>
+	Brief Transcript:
+</para>
+      <informaltable>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Discrete Mathematics</entry>
+              <entry>Algebra</entry>
+              <entry>Introduction to Application Analysis and Design</entry>
+            </row>
+            <row>
+              <entry>Processing of large document collections</entry>
+              <entry>Introduction to the use of computers</entry>
+              <entry>Introduction to Programming</entry>
+            </row>
+            <row>
+              <entry>Introduction to Databases</entry>
+              <entry>Programming project</entry>
+              <entry>Computer Systems Organisation</entry>
+            </row>
+            <row>
+              <entry>Fundamental models of programming and computation</entry>
+              <entry>Verification and Derivation of Algorithms</entry>
+              <entry>Accounting &amp; Finance</entry>
+            </row>
+            <row>
+              <entry>Marketing</entry>
+              <entry>Business Information Systems</entry>
+              <entry>Managing Human Resources</entry>
+            </row>
+            <row>
+              <entry>Software Engineering</entry>
+              <entry>Programming in C</entry>
+              <entry>Theory of Computation</entry>
+            </row>
+            <row>
+              <entry>Compilers</entry>
+              <entry>German Post Beginner</entry>
+              <entry>Finnish 1, 2 &amp; 3</entry>
+            </row>
+            <row>
+              <entry>The metalanguage XML</entry>
+              <entry>Software Testing</entry>
+              <entry>Data Mining</entry>
+            </row>
+            <row>
+              <entry>Electronic Commerce</entry>
+              <entry>Digital Media Technology</entry>
+              <entry>Data Communications</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+    <section>
+      <title>University of Bath</title>
+      <para>
+	Completed two academic years on a <ulink url="http://www.bath.ac.uk/">Computer Information Systems (CIS)
+	BSc(Hons)</ulink> program before choosing to transfer to
+	Helsinki.
+</para>
+    </section>
+    <section>
+      <title>Matriculation</title>
+      <para><ulink url="http://www.steyning.w-sussex.sch.uk/">Steyning
+Grammar School 6th Form</ulink>, Steyning, West Sussex, UK.</para>
+<!--
+      <itemizedlist>
+	<listitem><para>Mathematics</para></listitem>
+	<listitem><para>Business Studies</para></listitem>
+	<listitem><para>Physics</para></listitem>
+      </itemizedlist>
+-->
+    </section>
+    <section>
+      <title>Schooling</title>
+      <para><ulink url="http://www.maristdbn.kzn.school.za/">Marist Brothers, St. Henrys.</ulink> Durban, South Africa.</para>
+    </section>
+  </section>
+  <section>
+    <title>Skills</title>
+    <informaltable>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>
+              <para>
+		Languages/Tools:
+	      </para>
+              <itemizedlist>
+                <listitem>
+                  <para>Python - cgi, networking(sockets) and xml-sig tools</para>
+                </listitem>
+                <listitem>
+                  <para>C - gcc, Glib and Python C/API</para>
+                </listitem>
+                <listitem>
+                  <para>XHTML, CSS - and other W3C recommendations</para>
+                </listitem>
+                <listitem>
+                  <para>XML, RDF, RSS, XSL, XSLT, SGML, Docbook, RosettaNet, OASIS, SVG</para>
+                </listitem>
+                <listitem>
+                  <para>Editor - vim</para>
+                </listitem>
+                <listitem>
+                  <para>Latex, xfig, dia</para>
+                </listitem>
+                <listitem>
+                  <para>Team working with CVS</para>
+                </listitem>
+              </itemizedlist>
+            </entry>
+            <entry>
+              <para>
+		Services:
+	      </para>
+              <itemizedlist>
+                <listitem>
+                  <para>UNIX - Debian GNU/Linux, SunOS, SINUX</para>
+                </listitem>
+                <listitem>
+                  <para>Databases - MySQL, Postgres</para>
+                </listitem>
+                <listitem>
+                  <para>Backups - using tools such as tar, dd, chroot</para>
+                </listitem>
+                <listitem>
+                  <para>Network file systems - inc. Samba</para>
+                </listitem>
+                <listitem>
+                  <para>Security - Firewalling, PGP/GPG, SSH, testing</para>
+                </listitem>
+                <listitem>
+                  <para>Apache - htaccess, modpython</para>
+                </listitem>
+                <listitem>
+                  <para>Account administration - LDAP, PAM</para>
+                </listitem>
+                <listitem>
+                  <para>Email - exim</para>
+                </listitem>
+                <listitem>
+                  <para>Telephony - H.323 and SIP</para>
+                </listitem>
+              </itemizedlist>
+            </entry>
+            <entry>
+              <para>
+		Misc:
+	      </para>
+              <itemizedlist>
+                <listitem>
+                  <para>Finnish Intermediate</para>
+                </listitem>
+                <listitem>
+                  <para>German Post Beginner</para>
+                </listitem>
+                <listitem>
+                  <para>Communication - Presenting and public speaking</para>
+                </listitem>
+                <listitem>
+                  <para>Customer Relations</para>
+                </listitem>
+                <listitem>
+                  <para>Purchasing</para>
+                </listitem>
+                <listitem>
+                  <para>Technical pre and post sales</para>
+                </listitem>
+              </itemizedlist>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </section>
+  <section>
+    <title>Employment</title>
+    <section>
+      <title>University of Helsinki Computer Science Department</title>
+      <informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Roles:</entry>
+              <entry>Python/Perl programming</entry>
+            </row>
+            <row>
+              <entry>Duration:</entry>
+              <entry>From November 2002 till present</entry>
+            </row>
+            <row>
+              <entry>Details:</entry>
+              <entry>
+
+            Member of Helsinki University's Initiative for the Evaluation of XML
+    retrieval research group that is a subgroup of Doremi.  <ulink url="http://www.cs.helsinki.fi/research/doremi/">DOcument management,
+    information REtrieval &amp; text and data MIning</ulink>.  Researching,
+    designing &amp; programming an XML information retrieval engine in Python.
+                                 
+            </entry>
+            </row>
+            <row>
+              <entry>Location:</entry>
+              <entry>Helsinki, Finland.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+    <section>
+      <title>Telering Finland (part of the Sonera/Telia Group)</title>
+      <informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Roles:</entry>
+              <entry>Design(macro+micro), documentation(WPD) and prototype implementation</entry>
+            </row>
+            <row>
+              <entry>Duration:</entry>
+              <entry>From January 2002 till June 2002</entry>
+            </row>
+            <row>
+              <entry>Details:</entry>
+              <entry>
+
+	              Working in a team with IBM engineering
+	              procedures and resources to implement a
+	              forecasting and inventory visibility tool across
+	              the entire chain for the client.  Part of a
+	              project of ICT Enabled Commerce organised by the
+	              Helsinki University of Technology.  Technologies
+	              such as RosettaNET standards(XML), IBM
+	              Websphere(WAS) and Java servlets/beans were utilised.
+		      	             
+	      </entry>
+            </row>
+            <row>
+              <entry>Location:</entry>
+              <entry>Helsinki, Finland.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+    <section>
+      <title>Siemens Finland</title>
+      <informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Roles:</entry>
+              <entry>Unix administrator, troubleshooter</entry>
+            </row>
+            <row>
+              <entry>Duration:</entry>
+              <entry>Summer contract from June 2001 to September 2001</entry>
+            </row>
+            <row>
+              <entry>Details:</entry>
+              <entry>
+		     System support + Customer service. Within the ICM
+		     N IS SS Finland Intelligent services department.
+		     Bash Scripting and Perl programming to monitor
+		     SINUX systems. Performed system updates(kernel
+		     building, patching), and maintained several test
+		     machines. Visited customer sites to troubleshoot various
+		     technical issues with their machines.
+	      </entry>
+            </row>
+            <row>
+              <entry>Location:</entry>
+              <entry>Siemens Osakeyhti</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+    <section>
+      <title>CH Solutions</title>
+      <informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Roles:</entry>
+              <entry>
+                Administrator, Computer Engineer, Technical Lead,
+		Network Administrator, Webmaster, Customer Relations,
+		Technical Sales support, After Sales Support.
+	      </entry>
+            </row>
+            <row>
+              <entry>Duration:</entry>
+              <entry>
+              Full time from February '98 till October '98 and during
+              University breaks in the UK.
+              </entry>
+            </row>
+            <row>
+              <entry>Details:</entry>
+              <entry>
+
+        I undertook various technical tasks from building server systems to
+        deploying and configuring software to clientele needs.
+
+        Responsible for quality control in products, and providing training to staff.
+
+	      </entry>
+            </row>
+            <row>
+              <entry>Location:</entry>
+              <entry>
+              The Old Hall, 2 Bodmin Business Centre, Harleigh Road,
+              Bodmin, Cornwall, PL30 5AR, UK.
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+  </section>
+</article>

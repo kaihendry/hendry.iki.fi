@@ -1,0 +1,27 @@
+# See sources.list(5) for more information, especialy
+# Remember that you can only use http, ftp or file URIs
+# CDROMs are managed through the apt-cdrom tool.
+
+# UNSTABLE
+
+deb http://ftp.fi.debian.org/debian unstable main non-free contrib
+deb-src http://ftp.fi.debian.org/debian unstable main non-free contrib
+deb http://ftp.fi.debian.org/debian-non-US unstable/non-US main contrib non-free
+deb-src http://ftp.fi.debian.org/debian-non-US unstable/non-US main contrib non-free
+
+# Experimental for Gnome2
+#deb http://ftp.fi.debian.org/debian/ ../project/experimental main
+#deb-src http://ftp.fi.debian.org/debian/ ../project/experimental main
+
+#kde3.1-beta2 (unofficial)
+#deb http://mirror.segfault.info/debian/kde3.1-beta2/ ./
+
+#mplayer
+deb http://marillat.free.fr/ unstable main
+
+# java
+#deb ftp://ftp.tux.org/pub/java/debian unstable non-free
+
+#silc-client:
+#deb http://silcnet.org/download/client/deb ./
+#deb-src http://silcnet.org/download/client/deb ./

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xml:lang="en">
+
+<head>
+  <meta name="author" content="Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2003 by Kai Hendry" />
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rev="made" href="mailto:hendry@n0spam.cs.helsinki.fi" />
+  <link rel="stylesheet" type="text/css" href="http://www.cs.helsinki.fi/u/hendry/simpstyle.css" media="all" />
+
+  <title>Gauge - for simple recording of Clay Pigeon shooting statistics</title>
+
+</head>
+
+<!-- Congratulations, you are using the source -->
+
+    <body>
+
+	<h1>Gauge</h1>
+
+	<h3>Introduction</h3>
+
+	<p>
+	
+	Gauge is a simple python script which helps record shooting statistics.
+	If you enjoy clay pigeon shooting (or related shooting sports), you can
+	easily keep a record of your aiming accuracy. It has an easy to use and
+	fast colour console user interface. It is best used with the Debian
+	operating system with a Laptop with a good battery on site.
+
+	</p>
+
+	<h3>Using it</h3>
+
+	<h4>System requirements</h4>
+
+	<p>
+
+	If you do not know what the hell Linux is, this program is
+	<strong>not</strong> for you.  This program has not been tested on
+	Windows, and it would probably not install very easily besides. It is a
+	console application so it should be very fast, and you do not need X
+	windows to run it. It probably will run fine with some fine tuning on
+	VERY low specced machines(Palm, IPAQ, 286 etc.)! 
+
+	</p>
+
+	<h4>Software requirements</h4>
+	
+	<p>
+	
+	You need a python interpreter as well as the newt/snack module
+	installed. Under <a href="http://www.debian.org">Debian</a>, you would
+	simply make sure the package <a
+	href="http://packages.debian.org/stable/interpreters/python-newt.html">python-newt</a>
+	is installed, and copy this script named gauge.py to a directory you
+	would like to run it from.  In Debian SID python2.2 does not have snack
+	installed by default in the site-packages.  Use the python2.1 binary in
+	that case. <strong>./gauge.py -h</strong> for usage help. I encourage you
+	to read the code too. Enjoy =)
+
+	</p>
+
+	<ul>
+		
+		<li>Gauge - <a href="http://db.cs.helsinki.fi/~hendry/cvs/viewcvs.cgi/gauge/">download</a> - with XHTML
+		OUTPUT(<a href="gauge.html">sample</a>) for report generation!
+		Now you can print reports or upload them to your webspace</li> 
+
+	</ul>
+
+	<h4>Picture of Gauge on a Thinkpad 600 in action</h4>
+
+	<p>
+	<a href="2002_07_07_162443_shot.jpg"><img alt="screenshot" src="thumb-2002_07_07_162443_shot.jpg" /></a>
+	</p>
+
+	<p> The license includes a standard disclaimer to basically say I am
+	not responsible for shooting yourself or your friends accidently.
+	Please be careful, and keep your gun broken! </p>
+
+	<h3>The future</h3>
+
+	<p>
+
+	If you have actually made use of this program, I would like to hear
+	from you by email! :) I welcome any patches and contributions sent to
+	me too via email. In the short term I want the User Interface to have
+	Hotkeys or shortcut keys, and improve the statistics. I would like it
+	to be able to export data to GNUPlot in order to draw some cool looking
+	graphs. If I have the time I would like to do a Web version of this,
+	making use of shortcut keys I have seen Google employ in a Web demo.
+
+	</p>
+	
+	<p>This program *is* simple and probably will end up being an example
+	for people who are interested in learning python and newt, in the same
+	way I have used it.  It took me about 3+ days to get this far from a
+	cold start. :) </p>
+	
+
+	<h3>Credits, contributions and copyright</h3>
+
+	<p> This is dedicated to Brian Hendry and Morley Allan, the gentlemen I
+	shoot with. <br/> Thanks to opensource software and its amazing
+	contributors for providing me a platform for writing this.  </p>
+
+	<h4>License: <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> </h4>
+
+
+
+    <!--#include virtual="../../footer.inc" -->
+
+    </body>
+
+
+</html>

@@ -1,0 +1,268 @@
+
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xml:lang="en">
+
+<head>
+  <meta name="author" content="Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2002 by Kai Hendry" />
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rev="made" href="mailto:hendry@n0spam.cs.helsinki.fi" />
+<link rel="stylesheet" href="http://www.w3.org/StyleSheets/Core/Ultramarine" title="Ultramarine" type="text/css" />
+<link rel="stylesheet alternate" href="http://www.w3.org/StyleSheets/Core/Steely" title="Steely" type="text/css" />
+<link rel="stylesheet alternate" href="http://www.w3.org/StyleSheets/Core/Oldstyle" title="Oldstyle" type="text/css" />
+
+  <title>GNU Debian Linux Tips</title>
+
+</head>
+
+<!-- Congratulations, you are using the source -->
+
+<body>
+
+<h1>GNU Debian Linux Tips</h1>
+
+<p>Enjoy! (Yawn) Debian rules, rpm based dists suck ass. Why not <a
+href="ftp://ftp.debian.org/debian/dists/woody/main/disks-i386/current/">get a
+bootdisk</a>, and apt-get into it? :)</p>
+
+<h3>Bash and imagemagick</h3>
+
+<p> My uncle sends my parents these 12 meg .tif files that take FOREVER to
+display, so I wanted to change them to a reasonable format such as PNG and
+scale them down to a viewable size.</p>
+
+<pre>hendry@praze:~/pictures$ for i in `ls`; do convert -scale 580x394 $i `basename $i .tif`.png; done</pre>
+
+<p>If your scaling division is wrong, do not worry convert will retain the
+ratio. Thanks to Robot101 from #debian-uk for that tip.  </p>
+
+
+<h3>Upgrading with unstable</h3>
+
+<p>On my workstation/playmobile I run "unstable". Don't be daft and use it on a server.
+Unstable mostly has the latest debian packages, i.e. the bleeding edge.<br/>
+Here is my /etc/apt/<a href="sources.list">sources.list</a>.
+</p>
+
+<p>I use <pre>apt-get -u dist-upgrade</pre>
+"dist-upgrade" is a little naughty at times and may remove packages
+to resolve a conflinct. So I suggest you upgrade manually and check what is being removed (if anything).
+</p>
+
+
+<h3>Setting up iptables</h3>
+
+<p>Block all incoming connections, except for ssh.
+</p>
+
+<pre>
+iptables -N block
+iptables -A block -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A block -m state --state NEW -i ! ppp0 -j ACCEPT
+iptables -A block -j DROP
+iptables -A INPUT -j block
+iptables -A FORWARD -j block
+iptables -L
+iptables -I block -i ppp0 -p tcp --dport 22 -j ACCEPT
+iptables -L
+/etc/init.d/iptables save active
+
+</pre>
+
+
+
+<h3>SSH2 Password-less Login </h3>
+
+<p>If you routinely need to login to several machines, as I do, you will find
+this tip useful to automate the process. Thanks to Robot101 again!
+</p>
+
+<pre>
+
+ssh-keygen -t dsa
+
+</pre>
+
+<p>In the previous version of my tip, I did not set a passphrase. Robot101
+notes this is generally unwise and that it is better to put a passphrase on,
+and use ssh-agent. I believe him.</p>
+
+<pre>
+
+hendry@praze:~$ ssh-keygen -p
+Enter file in which the key is (/home/hendry/.ssh/id_rsa): /home/hendry/.ssh/id_dsa
+Key has comment '/home/hendry/.ssh/id_dsa'
+Enter new passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved with the new passphrase.
+</pre>
+
+<p>In debian, ssh-agent should be already running when you run an X
+session.</p>
+
+<pre>
+eval `ssh-agent`
+</pre>
+
+<p>
+ssh-add prompts your for the passphrase which it will remember for the session.
+</p>
+
+<pre>
+hendry@praze:~$ ssh-add 
+Enter passphrase for /home/hendry/.ssh/id_dsa: 
+Identity added: /home/hendry/.ssh/id_dsa (/home/hendry/.ssh/id_dsa)
+</pre>
+
+<p> Finally the command to copy your id to your various shells, such as mine at
+dabase.com could well be yourmachine.co.uk!  </p>
+
+<pre>
+ssh-copy-id -i id_dsa.pub dabase.com
+</pre>
+
+<p>So now for
+example, if you want to login automagically and run a process use: </p>
+
+<pre>
+ssh somecomputer -t theprocessyouwanttorun
+</pre>
+
+<p>Another nifty switch is the -v switch for verbose output ssh (thats fun).</p>
+
+<h3>Screen</h3>
+
+<p>Screen is a very very cool console enhancement, which allows you to create
+new windows, flip between them and best of all detach and reattach all of them!
+Why is that so damn cool? I will tell you why. To me I can now have this nice
+warm fuzzy feeling that the processes are safe, and just how I left them.  The
+keys I typically use while running it are, "ctrl-a c" to create a new window.
+"ctrl-a space" to flip between my windows and "ctrl-a ctrl-d" to detach screen.
+screen -R reattach to a session. Screen is a lifesaver if a program does not
+background well or you have a dodgy net connection, and it works very well with <a
+href="http://www.irssi.org">irssi.</a> Hmmm, lets revise the earlier tip
+to:</p>
+
+<pre>
+ssh myreliableremoteshell -t screen -R
+</pre>
+
+<pre>
+23:05 < Robot101> another handy tip for screen
+23:05 < Robot101> 'screen -x' lets you attatch to the same screen more than once
+23:06 < Robot101> I use it for helping people remotely, so they can see what I'm doing or vice versa
+</pre>
+
+<h3>getting started with GPG (or protecting your privacy!)</h3>
+
+<p> It is a pretty good idea to understand that whole public/private encryption
+concept before you start to think about using pgp or gpg.  I remember using PGP
+sometime ago with DOS, but I stopped using it because it was a pain to use. To
+make matters worse, I think I accidentally deleted my secret key. There is an
+first year essay I did about PGP somewhere on the Internet. Anyway I have
+started using <a href="http://www.mutt.org">mutt</a>, and it has great support
+for encryption with the GNU PGP implementation called gpg. </p>
+
+<pre>
+gpg --gen-key
+</pre>
+
+<p>Generate your key pair. Default settings are fine. Use a strong password. My
+tip for creating passwords was told to me by another friend named <a
+href="http://www.fysh.org/~athan/">Athan</a>. Basically he says:</p>
+
+<ol>
+	<li>Think of a phrase e.g. the fox jumped over the fence</li>
+	<li>Take the first or second letter of the phrase to make a word e.g. (with 2nd letter) houvhe</li>
+	<li>Throw some funny chars in there like ! and 31337(eleet or elite) transition chars like o to 0 and e to 3.</li>
+</ol>
+
+<p>With your gpg or pgp (they are the same to me) passphrase, it really needs
+to be strong. So, you might even want to think about repeating that process,
+with two phrases.  </p>
+
+<p>After that fun interaction, you need to export your public key and upload it to
+your webpage!</p>
+
+<pre>
+gpg -a --export yourusername &gt; yourusername.pub
+scp yourusername.pub yourwwwhostshellmachine:public_html/
+</pre>
+
+<p>With mutt gpg is well integrated. Hit P while in the send message view for
+encryption options. To add public keys of your collaborators, use:</p>
+
+<pre>
+gpg --import whatevertheirpublickeyiscalled.whatevertheycalledtheextension
+</pre>
+
+<p>Feel free to send me an encrypted mail. =) My public key should be <a
+href="http://www.cs.helsinki.fi/u/hendry/hendry.pub">here</a>.</p>
+
+<h4>And some more...</h4>
+
+<pre>
+gpg -kvc
+</pre>
+
+<p>This should print out some useful information for distributing and verifying your signature.
+For example:
+</p>
+
+<pre>
+pub  1024D/A000D5CC 2002-05-18 Kai I Hendry &lt;hendry AT cs.helsinki.fi&gt;
+</pre>
+
+<p>Has some information useful to you. <strong>A000D5CC</strong> is my public
+key id which is used as a quick and easy reference to perform various functions
+with.</p>
+
+<pre>
+gpg --keyserver wwwkeys.pgp.net --recv-keys A000D5CC
+</pre>
+
+<p>The command above grabs my pub key from a server and imports it quite
+smartly. <strong>DO not to forget your passphrase/password!!</strong> I have
+myself have forgotten the passphrase of my first key and it is extremely
+annoying for yourself and others. To avoid such an embarrasing situation, make
+a revocation certificate in advance, using: </p>
+
+<pre>
+gpg --output revcert.asc --gen-revoke A000D5CC
+</pre>
+
+<p>Keep that revcert.asc in a safe place. Maybe even print it out as <a
+href="http://www.cryptnet.net/fdp/crypto/gpg-party.html">the GnuPG Keysigning
+Party HOWTO suggests.</a> <br/>Again using your public id, put some custom headers
+into your .muttrc. For example, here are mine:</p>
+
+<pre>
+my_hdr X-GPG-Fingerprint: 5A9F A10D 621C 7D24 4624 90F0 ACCB 71F0 A000 D5CC
+my_hdr X-GPG-Key: 1024D/A000D5CC
+</pre>
+
+
+<h3>Debian and Pine?</h3>
+
+<p> Here is my little <a href="debian-pine.shtml">tip</a>. </p>
+
+
+<h3>Some pages I look for tips:</h3>
+<ul>
+	<li><a href="http://www.linuxbrit.co.uk/tips/">LinuxBrit</a></li>
+	<li><a href="http://www.google.com/linux">Google Linux Search</a></li>
+	<li><a href="http://www.linuxdoc.org">Linux Documentation</a></li>
+	<li><a href="http://www.cs.helsinki.fi/u/hendry/content">Shameless plug</a></li>
+</ul>
+
+
+<!--#include virtual="../../footer.inc" -->
+
+    </body>
+
+
+</html>

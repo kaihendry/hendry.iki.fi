@@ -1,0 +1,315 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xml:lang="en">
+
+<head>
+  <meta name="author" content="Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2002 by Kai Hendry" />
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rev="made" href="mailto:hendry@n0spam.cs.helsinki.fi" />
+<link rel="stylesheet" href="http://www.w3.org/StyleSheets/Core/Ultramarine" title="Ultramarine" type="text/css" />
+<link rel="stylesheet alternate" href="http://www.w3.org/StyleSheets/Core/Steely" title="Steely" type="text/css" />
+<link rel="stylesheet alternate" href="http://www.w3.org/StyleSheets/Core/Oldstyle" title="Oldstyle" type="text/css" />
+
+  <title>Welcome to HOASNET!</title>
+
+</head>
+
+<!-- Congratulations, you are using the source -->
+
+    <body>
+
+
+
+
+<h1>HOASNET</h1>
+
+<p>I have started blogging about the farcical activities of the HOAS/TeliaSonera's mismanagement of HOASNet. Share my pain!</p>
+
+<h2>Click here for: <a title="TeliaSonera's HOASnet" href="http://db.cs.helsinki.fi/~hendry/log/pyblosxom.cgi/hoasnet/">HOASNET News</a></h2>
+
+<p>Join HOAS users on : 
+<a href="irc://irc1.inet.fi/%23hoas">irc://IRCnet/#hoas</a>
+</p>
+
+<h2>Some useful information</h2>
+
+<p>I think this is the email of Hoasnet support:<br/>
+<strong><a href="mailto:helpdesk@inet.fi">helpdesk@inet.fi</a></strong>
+</p>
+
+<p>
+Finding information about hoasnet and its servers is quite difficult, esp. if you only speak english.
+So here we go:
+</p>
+
+<ul>
+
+<li>news server - news.inet.fi</li>
+<li>outgoing mail server - mail.inet.fi</li>
+<li>ntp (time) servers - ntp.inet.fi, ntp2.inet.fi, ntp3.inet.fi</li>
+<li>irc servers - irc1.inet.fi (IRCNET)</li>
+
+</ul>
+
+<h3>Setting up Hoasnet PPPoe under Debian GNU/Linux</h3>
+
+<p>As of the 27th of November Sonera has changed its ISP settings (WITHOUT
+TELLING ITS CUSTOMERS) , so you need to add the following lines to the
+/etc/ppp/peers/dsl-provider: </p>
+
+<pre>
+noaccomp
+mtu 1492
+mru 1492
+receive-all
+</pre>
+
+<p>And now the rest:</p>
+
+<ol>
+<li>Run pppoeconf <a href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/snapshot1.png">like so</a></li>
+<li>Let me remind you about the @ part to your username <a href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/login.png">like this</a></li>
+<li>If everything goes well, an ifconfig of ppp0 should <a href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/snapshot3.png">display nicely</a></li>
+</ol>
+
+<p>If you are having problems with pppoeconf in <em>Woody</em>, running:
+</p>
+<pre>
+cat /etc/ppp/pap-secrets &gt;&gt; /etc/ppp/chap-secrets
+</pre>
+<p>Should fix the problem.</p>
+
+
+<h3>Older stuff you need not read or pay attention to. Here for historical reasons.</h3>
+<p>Martin Fluch mailed me the settings one needs to get it working, I have updated the above
+"Setting up Hoasnet PPPoe under Debian GNU/Linux" section with the information.</p>
+
+<h3>Update - Saturday 30 November 2002</h3>
+
+<p>Use this <a href="LinuxHOASnet.tar">LinuxHOASnet.tar</a> until a proper .deb has been released to fix the problems
+which Sonera Internet have created. :/
+</p>
+
+<p>I have compiled my own pppoed, and edited the start-pppoe script for my own
+system.  I advise you tar xvf in the /root dir as root, go into the src dir and
+make clean and then make.  Now cp  /root/Linux/release/options.pppoe /etc/ppp
+(should not overwrite anything). And go into /root/Linux/release/ and run
+start-pppoe!  </p>
+
+<h3>Update - Friday 29 November 2002</h3>
+
+<p>There seems to be a problem affecting Debian users of the HOASnet service since the 27th of November.</p>
+
+<p>At first I assumed it was an service outage, and I mailed Sonera accordingly:</p>
+<pre>
+From: "inet-helpdesk" &lt;inet-helpdesk@sonera.com&gt;
+To: "Kai Hendry" &lt;nospam@cs.Helsinki.FI&gt;
+
+Hi,
+
+http://www.hoas.fi should inform if there are any breaks/problems in your Hoasnet connection.
+
+Kind regards,
+
+Ilari Vesanen
+Sonera Internet Technical support
+
+&gt; -----Original Message-----
+&gt; From: Kai Hendry [mailto:hendry@cs.Helsinki.FI]
+&gt; Sent: 27. marraskuuta 2002 11:14
+&gt; To: helpdesk@inet.fi
+&gt; Subject: Information
+&gt;
+&gt;
+&gt; Is there a page explaining service outages suffered by this morning at
+&gt; Linnoituksentie HOASNet or other places for that matter?
+&gt;
+</pre>
+
+<p>After conducting some tests in other distros I found:</p>
+<ul>
+<li>Windows XP works</li>
+<li>RH8 works</li>
+</ul>
+
+<p>Then I assumed it was a new upstream unstable package which broke my PPP
+configuration. This is not the case, as I have now test Knoppix a Debian
+based distribution which worked before, and now does not work either. (see screenshots below)
+</p>
+
+<p>Now I am frantic. Posted to the roaring penguin forums <a href="http://www.voy.com/41165/2140.html">here</a>.
+</p>
+<pre>
+<!--#include virtual="ppp_errors.txt" -->
+</pre>
+
+<p>If anyone has any idea why this is the case, get in touch!</p>
+
+
+
+
+
+<h3>Update - Wednesday 11 Sep 2002</h3>
+
+<p>
+
+The upload channel once upon a time on my brand new HOASnet connection was 80kB/s. And now?
+<strong>
+7,97 kB/s 
+</strong>. A <strong>tenth</strong> of the orginal speed. Oh Sonera, thanks again. Assholes.
+</p>
+
+<h3>Update - Wednesday 29 May 2002</h3>
+
+<p>
+It is OFFICIAL! HoasNET is operational at least here in Kivikko. That is the good news.
+the BAD news is that the :
+</p>
+
+<ul>
+<li>Connection is limited to 32KB/s downstream, and a fairly good 80KB/s upstream.
+</li>
+<li>Connection speeds are the <strong>same on LAN!!!</strong>
+</li>
+<li>PPPoE took me 3 hours to get going under Linux (not easy to debug problems!)
+</li>
+</ul>
+
+<p>Ok, it is not bad for a "free" connection, but how much longer will it stay "free" ?!
+From an ISP perspective, it looks good. From a consumer perspective it sucks. It is not easy to setup, and it
+is severly capped. What next? Stay tuned...
+</p>
+
+<h3>Update - Tuesday 21 May 2002</h3>
+
+<p> <a href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/update.jpg">Sorry
+for the delay ! </a> Yes, the farce continues. I think it is time for a
+petition or something. :/ Heads should roll at HOAS. Notice how there is no
+email address as usual. Official policy is still is write to your local office
+so someone who barely knows how to switch on their computer can ignore you.
+</p>
+
+<h3>Contributions</h3>
+
+<p>Andrei writes (Delivery-date: Fri, 17 May 2002 15:12:29 +0300):</p>
+<pre>
+Martin showed me a Sonera web doc where they specify that what we get is
+a connection of 256 Kb/s (32KB/s). Ouch!
+</pre>
+
+<p>Martin writes (Delivery-date: Tue, 14 May 2002 13:48:02 +0300):</p>
+<pre>
+Heips!
+
+Just a small correction:
+
+It seems to me, that we have a quite ordinary PPPoE connection which
+should be well known standard. On the CD is even a PPPoE client offered
+for Linux (including source), other should work as well (I expect so). The
+term "private API" just means the oposite to DHCP in my opinion (Windows
+versions earlier to Win XP don't have a PPPoE included).
+
+The HOAS network is realized in two different ways. There are HOAS
+appartments connected to an ordinary network (NICs configured by DHCP,
+autentication -- don't ask me for what reason at all needed -- via a web
+interface; quite bull shit) and there are appartments like ours where you
+have the PPPoE connection (like commonly used by ADSL and alike).
+
+I consider the PPPoE network as a second class network (quality probably
+below the Jippii thingy), since it takes much more the CPU to keep the
+network connection alive than usually, probably no fixed IP.
+
+But on the other hand we can consider us lucky not to need to use a web
+based authenticatiuon system like some others (of course this could be
+done by some nice perl script, but nonetheless it's crap).
+
+A nice, plain network connection as in the FUNET times back then till
+October 2000, that would be a first class high end network.
+
+8&lt; snip! (edited)
+
+Let's see when the network actually starts to work this week (hopefully it
+starts), and let's see how easy Linux manages it. In case there are any
+unsolveable broblems with that I think we will have a nice case for the
+student union to take care about. But I think (hope!) that this won't be
+the case.
+
+Anyways: HOAS sucks.
+
+Cheers,
+- Martin
+</pre>
+
+
+<h3>Introduction</h3> 
+
+<p> The page is where I vent my stress/anger/rage over HOAS's incompetent
+handling of providing Internet connections to it customers.
+</p>
+
+<h3>The wait</h3>
+
+<p>At the time of writing, I am STILL waiting for an Internet connection which
+was initially promised in December of 2000 to me (in Pasila). I have had to
+waste my time and ultimately money in traveling to computer labs and finally
+coming with an expensive alternative of ADSL provided by Elisa.</p>
+
+<h3>HOAS and IT</h3>
+
+<p>They simply do not mix. HOAS seem to little or no IT know how within their company.
+Just look at <a href="http://www.hoas.fi">their homepage</a>.  The have
+outsourced the "problem" of Internet connections, while maybe HOAS should have
+thought about using the vast resources of the University instead of relying on
+"e-companies" to put it bluntly, fuck up.  First we had the JOKE which is or
+was <a href="http://www.jippii.fi/hoas/">Jippii</a>. HOAS took an a year to get
+out of that contract, which failed to provide any service to me except a rather
+expensive "helpline". Nice one.  Now we have a glorious Sonera setup with
+wonderfully poor implementations of PPPoe and a private API (not DHCP!!? OH NO
+THAT WOULD BE TOO SIMPLE), and no English documentation as of yet. HEY ! Hmmm,
+HOAS only had a a few years to think about it. Looks like HOAS are waiting for
+someone to die and forget about the dream of connecting students to the
+net!</p>
+
+<h3>Lets communicate</h3>
+
+<p> Or lets not. Mailing hoas is like talking to a wall. My patience has been
+stretched over a year now, I at the very least deserve a medal! Characteristic
+failings include; Saying at one HOAS office that I was connected, while another
+one refuses to comment while REALLY I was not connected. Some more time and
+money wasted in HOAS style.  </p>
+
+<p> The funniest thing happened the other day. I had piece of <a
+href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/thedoor.jpg">paper
+stuck</a> on my door saying that I should come down to the local office in week
+20 to pick up my net connection.  Oh wow! First things first, I head to the
+office which I am afraid is NOT local and that helpful piece of paper stuck on
+the door sorta fails to give ANY further details. After spending over an HOUR
+trying to find the local office, I am greeted with a sign saying that they only
+open from 13:00 to 16:00.  Luckily I was only there by 12:00, so I only have to
+wait an hour in the rain. I mean, what is an HOUR when I had NO Internet from
+my wall socket for a year?  </p>
+
+<p>Now the real fun starts. The woman there asks me to sign just a piece of
+paper which looks like it was made by my mother using Word. A bit disheartening
+to say the least. One has to think WHY I came out here to sign a little piece
+of paper. Oh, but there is more a <a
+href="http://www.cs.helsinki.fi/u/hendry/pictures/hoas/package.jpg">fat plastic
+folder</a> jammed with documentation and two CDs.  WOW! What are on the CDs?
+OVER A GIG OF DRIVERS EH? What is in the documentation? Lots of HOASNET
+bullshit basically detailing in Finnish a proprietary solution (private API)
+for a proprietary platform (Windows XP).  It takes some searching in the pack
+to reveal a single piece of paper with the username and password. Why did HOAS
+not just send this to me by post/email? :( </p>
+
+<h1>Welcome to the farce which is HOASNET !</h1>
+<h2>FU HOAS, FU JIPPII &amp; FU SONERA !!!</h2>
+
+    <!--#include virtual="../../footer.inc" -->
+
+    </body>
+
+
+</html>

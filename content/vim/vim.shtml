@@ -1,0 +1,94 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.0//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic10.dtd">
+
+<html xml:lang="en">
+
+<head>
+  <meta name="author" content="Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2002 by Kai Hendry" />
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rev="made" href="mailto:hendry@n0spam.cs.helsinki.fi" />
+  <link rel="stylesheet" type="text/css" href="http://www.cs.helsinki.fi/u/hendry/simpstyle.css" media="all" />
+
+  <title>Kai's VIM page</title>
+
+</head>
+
+<!-- Congratulations, you are using the source -->
+
+    <body>
+	<h1>The VI iMproved editor</h1>
+
+	<h3>Introduction</h3>
+
+	<p> In order to use a computer, you need to learn the skills to use an
+	editor.  Out of the zillions out there, I have settled down with vim.
+	Namely because I like to use the console for numerous reasons (screen,
+	pine, irssi), and I want a fast powerful editor. I have used emacs
+	before, but I switched because: </p>
+
+	<ul>
+		<li>New version of emacs with GTK and variable font size freaked me out</li>
+		<li>I could never ever get my .emacs just right! :/</li>
+		<li>It is a little slow at times</li>
+		<li>The console version simply sucks</li>
+		<li>Different versions and branches freaks me out</li>
+		<li>Default undo frankly sucks</li>
+		<li>Bit overwhelming for me...</li>
+	</ul>
+
+	<h3>Getting started</h3>
+
+	<p>If you are running linux like a good person, you will have vim or at
+	least vi on your system.  That is one of the great aspects of vim is
+	that is it everywhere. Vim is the improved version of vi btw.  I
+	recommend you launch the vimtutor program to get to know the basics of
+	vim. Although the F1 help in vim is very good. I use it all the time
+	(CTRL-t to get back).  What takes getting used to in vim is the
+	different modes. It sucks at first, I know, however you will learn
+	after awhile it is not so bad.  Just be patient, and do not lose your
+	cool.  =) </p>
+
+	<h3>My reference</h3> 
+	
+	<p>As a mechanism to get me to learn vim better, I have not only made
+	this page for you but for me to list some key shortcuts I tend to
+	forget.</p>
+
+	<dl>
+	  <dt>CTRL-w _</dt>
+	  <dd>Max window</dd>
+
+	  <dt>CTRL-w CTRL-w</dt>
+	  <dd>Swap Windows</dd>
+
+	  <dt>CTRL-w c</dt>
+          <dd>Closes the current window</dd>
+
+	  <dt>CTRL-w o</dt>
+          <dd>Closes all the other windows</dd>
+
+	  <dt>CTRL-w r</dt>
+          <dd>Rotate windows</dd>
+        </dl>
+
+	<h3>.vimrc</h3>
+
+<p>
+<a href="http://db.cs.helsinki.fi/~hendry/cvs/viewcvs.cgi/configs/.vimrc">Kai's dot vimrc</a>
+</p>
+
+	<h3>Some links</h3>
+	<ul>
+		<li><a href="http://db.cs.helsinki.fi/~hendry/faqwiz/faqw.py?req=show&file=faq07.001.htp">Vim Hints & Tricks</a></li>
+		<li><a href="http://www.cs.helsinki.fi/u/hendry/pictures/screenshot/vim/vim1.png">vim editing this page</a></li>
+		<li><a href="http://www.vim.org">vim Homepage</a></li>
+	</ul>
+	
+
+    <!--#include virtual="../../footer.inc" -->
+</body>
+
+
+</html>
