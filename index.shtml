@@ -54,7 +54,7 @@
 		<dd>A411</dd>
 
 	<dt>Office telephone</dt>
-		<dd>+358-9-19144650</dd>
+		<dd>+358-9-19144225</dd>
 
     <dt>GPG/PGP Public key</dt>
         <dd><a href="hendry.pub">gpg --keyserver wwwkeys.pgp.net --recv-keys 22341978</a></dd>
