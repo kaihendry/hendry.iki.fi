@@ -54,7 +54,11 @@ So here we go:
 
 </ul>
 
-<h3>Setting up Hoasnet PPPoe under Debian GNU/Linux</h3>
+<h3>Setting up Hoasnet PPPoe under Debian GNU/Linux (woody)</h3>
+
+<p><a href="http://www.hut.fi/~mtpajari/hoasnet_debian.htm">Setting PPPoe with Woody</a></p>
+
+<h3>Setting up Hoasnet PPPoe under Debian GNU/Linux (newer versions)</h3>
 
 <p>As of the 27th of November Sonera has changed its ISP settings (WITHOUT
 TELLING ITS CUSTOMERS) , so you need to add the following lines to the
