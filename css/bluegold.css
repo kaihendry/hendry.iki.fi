@@ -5,3 +5,8 @@ body { margin: 2%; font: 90%/1.2 Verdana, Arial, Helvetica, sans-serif; color: w
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
 h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
 pre {color: white; background: black; }
+
+
+/* Blog prettier */
+post {margin-left: 5%;}
+pre { font-size: 60%;}
