@@ -22,7 +22,7 @@
     <ul>
     <li><a href="http://db.cs.helsinki.fi/~hendry/kai.html" title="About Kai Hendry">About</a></li>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
-    <li><a title="my fairly large collection of digital images" href="http://db.cs.helsinki.fi/~hendry/gallery/">Pictures</a></li>
+    <li><a title="my fairly large collection of digital images" href="http://natalian.org/thumb/">Pictures</a></li>
     <li><a title="hire me" href="cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
     <li><a title="my collection of Tips &amp; Tricks!" href="http://db.cs.helsinki.fi/~hendry/faqwiz/faqw.py?req=index">Tips&amp;Tricks</a></li>
     <li><a title="Kai's Python Regular Expression Playground" href="http://db.cs.helsinki.fi/~hendry/python/re.cgi">RE tester</a></li>
@@ -67,14 +67,15 @@
 &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#097;&#109;&#101;&#115;&#115;&#097;&#103;&#101;&#046;&#100;&#101;
     </dd>
 
-    <dt><abbr title="I seek you">ICQ</abbr><acronym title="User Identity Number">UIN</acronym></dt>
+    <dt><abbr title="I seek you">ICQ</abbr> <acronym title="User Identity Number">UIN</acronym></dt>
     <dd>238(I prefer Jabber peeps)6684</dd>
 </dl>
 
 <h2>Research Interests</h2>
 <ul>
  <li>Opensource</li>
- <li>Data Mining</li>
+ <li>Web services</li>
+ <li>Mobile devices</li>
  <li>Information Retrieval</li>
  <li>E-commerce</li>
  <li><abbr title="Extensible Markup Language">XML</abbr> and related technology</li>
