@@ -1,21 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<html lang="en">
+<html xml:lang="en">
+
 <head>
-  <meta name="author" content="Kai Hendry">
-  <meta name="copyright" content="&copy; copyright 2002 by Kai Hendry">
-  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1">
-  <link rev="made" href="mailto:hendry@cs.helsinki.fi">
-<link rel="stylesheet" type="text/css" href="http://www.cs.helsinki.fi/u/hendry/simpstyle.css" media="all">
+  <meta name="author" content="Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2004 by Kai Hendry" />
+  <meta http-equiv="Content-Type" name="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="/~hendry/css/bluegold.css" media="all" />
+  <title>Kai Hendry @ Helsinki</title>
 
-  <title>Debian PINE PICO HOWTO</title>
 </head>
+
 <body>
 
 <h1>Debian PINE PICO HOWTO</h1>
 
-<p>Debian packages (.deb) for pine and pico is an easy process. Now as "root":
-</p>
+<p>Debian source packages for pine and pico are in non-free. :/ You need
+non-free defined in your <code>/etc/apt/sources.list</code>. </p>
 
 <pre>apt-get install pine-tracker</pre>
 
@@ -41,14 +43,18 @@ as root, in a scratch directory:
 Then use dpkg -i to install the generated debian packages.
 </pre>
 
-<p> It downloads it and compiles it! It conforms to pine's license and these
-actions compile pine into binaries on your own machine, making it a little bit
-quicker than vanilla distributions of them. </p>
 
-<p>Moral of the story:</p>
-<h1>DEBIAN RULES AND RPM BASED DISTS SUCK ASS</h1>
+<h1>University of Washington update your
+<a href="http://www.washington.edu/pine/overview/legal.html">license</a>
+<a href="http://www.washington.edu/pine/faq/legal.html#10.1">to allow free distribution of modified versions!</a>
+</h1>
 
-<!--#include virtual="../../footer.inc" -->
+<p>
+<a href="ftp://ftp.cac.washington.edu/pine/">
+UW distributes an unmodified debian binary package which does NOT have useful patches like maildir.
+</a>
+</p>
+
 
 </body>
 </html>

@@ -4,7 +4,7 @@ body { margin: 2%; }
 :visited { color: #6CF; background: #006; }
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
 h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
-pre {color: white; background: black; }
+pre {color: white; background: black; font-size: 145%; }
 
 
 /* Blog prettier */
