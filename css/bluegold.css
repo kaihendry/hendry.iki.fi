@@ -146,7 +146,7 @@ blockquote { font-style: italic; }
 kbd { font-weight: bolder; }
 code.comment { font-style: oblique; }
 img.insert { border: thick solid #FC0; margin: auto;} 
-pre  { font-family: monospace; font-size: 1em; } 
+pre  { font-family: monospace; font-size: 1.3em; } 
 
 /* COLOUR */
 
