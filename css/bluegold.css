@@ -9,5 +9,5 @@ pre {color: white; background: black; font-size: 145%; }
 
 /* Blog prettier */
 .meta {font-size: 60%;}
-.post {width: 49%; float: left; margin: 1%; padding: 1%; border: solid medium #FC0; }
+.post {width: 49%; float: left; margin: 1%; padding: 1%; border: solid medium #FC0; max-width: 50em;}
 .menu {width: 29%; float: right; margin: 1%; padding: 1%; border: solid medium #FC0; }
