@@ -38,12 +38,6 @@
     &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#099;&#115;&#046;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#046;&#102;&#105;
         </dd>
 
-	<dt><a href="http://www.cs.helsinki.fi/contact/kartta.html" title="Map of where the Helsinki Computer Science department is">Office</a></dt>
-		<dd>A411</dd>
-
-	<dt>Office telephone</dt>
-		<dd>+358-9-19144225</dd>
-
     <dt><acronym title="GNU Privacy Guard">GPG</acronym>/<acronym title="Pretty Good Privacy">PGP</acronym> Public key</dt>
         <dd><a href="hendry.pub">gpg --keyserver wwwkeys.pgp.net --recv-keys 22341978</a></dd>
 
