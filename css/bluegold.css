@@ -1,5 +1,5 @@
-html { border-top: solid thick #FC0; border-bottom: solid thick #FC0; }
-body { margin: 2%; font: 90%/1.2 Verdana, Arial, Helvetica, sans-serif; color: white; background-color: #006; }
+html { border-top: solid thick #FC0; border-bottom: solid thick #FC0; color: white; background-color: #006; font: 90%/1.2 Verdana, Arial, Helvetica, sans-serif;}
+body { margin: 2%; }
 :link { color: #F63; background: #006; }
 :visited { color: #6CF; background: #006; }
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
