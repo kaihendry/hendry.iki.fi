@@ -4,10 +4,10 @@ body { margin: 2%; }
 :visited { color: #6CF; background: #006; }
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
 h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
-pre {color: white; background: black; font-size: 145%; }
+pre { font: 1.5em monospace; color: white; background: black; }
 
 
 /* Blog prettier */
 .meta {font-size: 60%;}
-.post {width: 49%; float: left; margin: 1%; padding: 1%; border: solid medium #FC0; max-width: 50em;}
-.menu {width: 29%; float: right; margin: 1%; padding: 1%; border: solid medium #FC0; }
+.post { float: left; margin: 1%; padding: 1%; border: solid medium #FC0; max-width: 40em;}
+.menu { float: right; margin: 1%; padding: 1%; border: solid medium #FC0; }
