@@ -7,9 +7,6 @@
   <meta name="author" content="Kai Hendry" />
   <meta name="copyright" content="&copy; copyright 2004 by Kai Hendry" />
   <meta http-equiv="Content-Type" name="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-<!--
-  <link rev="made" href="mailto:hendry@n0spam.cs.helsinki.fi" />
--->
   <link rel="stylesheet" type="text/css" href="css/bluegold.css" media="all" />
   <title>Kai Hendry @ Helsinki</title>
 
@@ -19,30 +16,19 @@
 
 	<h1>Kai Hendry's Homepage</h1>
 
-
-<div id="nav">
     <ul>
-    <li><a href="http://db.cs.helsinki.fi/~hendry/kai.html" title="About Kai Hendry">About</a></li>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
-    <li><a title="my fairly large collection of digital images" href="http://natalian.org/thumb/">Pictures</a></li>
     <li><a title="hire me" href="cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
-    <li><a title="my collection of Tips &amp; Tricks!" href="http://db.cs.helsinki.fi/~hendry/faqwiz/faqw.py?req=index">Tips&amp;Tricks</a></li>
-    <li><a title="Kai's Python Regular Expression Playground" href="http://db.cs.helsinki.fi/~hendry/python/re.cgi">RE tester</a></li>
-    <li><a title="linux was invented here!" href="/"><acronym title="Computer Science">CS</acronym>Faculty</a></li>
     </ul>
-<span id="navclear"></span>
-
-
-
-</div>
 
     <h2>Contact details</h2>
-	<dl>
+<dl>
+
 	<dt>Full Name</dt>
 		<dd>Kai Ian Hendry</dd>
 
 	<dt>Address</dt>
-		<dd>Porthaninkatu 4 B 38, 00530, Helsinki, Finland.</dd>
+		<dd><address>Porthaninkatu 4 B 38, 00530, Helsinki, Finland.</address></dd>
 
 	<dt>Mobile</dt>
 		<dd>+358-40-8367733</dd>
@@ -72,43 +58,6 @@
     <dt><abbr title="I seek you">ICQ</abbr> <acronym title="User Identity Number">UIN</acronym></dt>
     <dd>238(I prefer Jabber peeps)6684</dd>
 </dl>
-
-<h2>Research Interests</h2>
-<ul>
- <li>Opensource</li>
- <li>Web services</li>
- <li>Mobile devices</li>
- <li>Information Retrieval</li>
- <li>E-commerce</li>
- <li><abbr title="Extensible Markup Language">XML</abbr> and related technology</li>
-</ul>
-
-<h2>Some pages in my media network empire!</h2>
-
-<ul>
-	<li><a href="http://www.fysh.org/~kai">my shell</a>@<a href="http://www.fysh.org">fysh.org</a></li>
-	<li><a href="http://www.prazefarm.co.uk/~kai">my shell</a>@<a href="http://www.prazefarm.co.uk">prazefarm.co.uk</a></li>
-	<li><a href="http://www.dabase.com/~hendry">my shell</a>@<a href="http://www.dabase.com">dabase.com</a></li>
-	<li><a href="http://db.cs.helsinki.fi/~hendry">my shell</a>@<a href="http://db.cs.helsinki.fi">db.cs.helsinki.fi</a></li>
-</ul>
-
-	<h2>Geek zone</h2>
-	<ul>
-		<li>The time is now <!--#echo var="DATE_LOCAL" --> in Helsinki</li>
-		<li>Page last modified on <!--#echo var="LAST_MODIFIED" --></li>
-		<li>User Agent: <!--#echo var="HTTP_USER_AGENT" --></li>
-		<li>Referer: <!--#echo var="HTTP_REFERER" --></li>
-		<li>Remote Host: <!--#echo var="REMOTE_HOST" --></li>
-		<li>Return to: <!--#if expr="\"$HTTP_REFERER\" != \"\"" -->
-         <a href="<!--#echo var="HTTP_REFERER" -->">previous page</a>,
-      <!--#endif -->
-      <a href="index.shtml">index</a></li>
-		<li><a href="http://validator.w3.org/check/referer">Validate XHTML</a></li>
-		<li><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a></li>
-
-	</ul>
-
-
 
  </body>
 </html>
