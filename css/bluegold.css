@@ -84,7 +84,7 @@ ul {list-style-type: disc;}
 .menu li {display: inline; }
 .powered li {display: inline; }
 html { border-top: thick solid; border-bottom: thick solid;}
-.story { border-bottom: thick dotted; }
+.post { border-bottom: thick dotted; }
 h1 { display: inline; }
 h3 { border-right: thick solid; border-left: thick solid; }
 .leftie { border-right: thick solid; border-left: thick solid; }
@@ -98,10 +98,38 @@ input[type="text"], textarea {
  border: 1px #FC0 solid;                                                                                                                                                
  padding-left: 0.1em;                                                                                                                                                   
  padding-right: 0.1em;                                                                                                                                                  
- width: 100%;                                                                                                                                                           
 }
 
-.searchform input[type=text] { width: 10% }
+#menu { 
+    position: absolute;
+    top: 1em;
+    padding: 0.5em;
+    border: #ccc thin solid;
+    }
+
+#menu ul {
+    list-style-type: none;
+}
+
+#content { 
+    position: absolute;
+    top: 1em;
+    padding: 0.5em;
+    margin-left: 30em;
+    margin-right: 1em;
+    width: auto;
+    border: #ccc thin solid;
+    }
+
+.meta { display: none; }
+
+
+
+#header {display: none; }
+
+p.credit { position: absolute; bottom: 1em; }
+
+.searchform input[type=text] { width: 10%; }
 
 .blosxomComment { border: thin solid #FC0; }
 
@@ -133,7 +161,7 @@ h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006; border-color: #FC0; }
 .blosxomDate { color: #FC0; background: #006; border-color: #FC0; }
 html { border-color: #FC0; }
 .leftie {  color: #FC0; border-color: #FC0; }
-.story { border-color: #FC0; }
+.post { border-color: #FC0; }
 .entry { background: black; color: white; }
 pre { background: black; color: white; }
 
