@@ -8,5 +8,5 @@ pre {color: white; background: black; }
 
 
 /* Blog prettier */
-.post {margin-left: 5%;}
-.menu { font-size: 60%;}
+.post { border: thin solid #FC0;}
+.meta { font-size: 60%;}
