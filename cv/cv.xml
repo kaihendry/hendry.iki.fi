@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.docbook.org/xml/4.1.2/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Curriculum Vitae</title>
+    <author>
+      <firstname>Kai</firstname>
+      <surname>Hendry</surname>
+    </author>
+    <releaseinfo>$Id$</releaseinfo>
+  </articleinfo>
+
+ <section>
+
+    <title>Summary of Qualifications</title>
+
+  <itemizedlist>
+	<listitem>
+        <para>Web application engineering</para>
+    </listitem>
+    <listitem>
+        <para>Unix administration and troubleshooting</para>
+    </listitem>
+    <listitem>
+        <para>Documentation and technical writing</para>
+    </listitem>
+
+  </itemizedlist>
+
+</section>
+
+
+ <section>
+
+    <title>Technical skills</title>
+
+  <itemizedlist>
+	<listitem>
+        <para>Software: Debian, Red Hat, Suse, IBM Websphere</para>
+    </listitem>
+	<listitem>
+        <para>Database: MySQL, Postgres, Informix</para>
+    </listitem>
+	<listitem>
+        <para>Programming languages: Python, Bash, C, R, Web API (HTML, Javascript et. al.)</para>
+    </listitem>
+	<listitem>
+        <para>Operating System: Linux, UNIX</para>
+    </listitem>
+	<listitem>
+        <para>Hardware: PC (x86) architecture, Siemens, IBM</para>
+    </listitem>
+	<listitem>
+        <para>Network: LAN, Wireless, Security testing</para>
+    </listitem>
+	<listitem>
+        <para>Internet/Email: DNS, Web server (Apache), SMTP (Postfix, Exim), IMAP (Dovecot), Authentication (LDAP)</para>
+    </listitem>
+    <listitem>
+        <para>Design: Test cases (test driven development), Specification (W3C, WHATWG), Statistic analysis and graphics</para>
+    </listitem>
+
+  </itemizedlist>
+
+</section>
+
+ <section>
+
+    <title>Work experience</title>
+    <section>
+      <title>University of Helsinki Computer Science Department</title>
+    <para><emphasis>Researcher role from December 2003 to August 2004</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Member of the Research on Distributed and Networked Systems and Applications group</para></listitem>
+	<listitem><para>Gained in depth knowledge of Mobile Web user agents and markup languages</para></listitem>
+	<listitem><para>Webmaster of group</para></listitem>
+  </itemizedlist>
+
+    <para><emphasis>Assistant researcher role from November 2002 to December 2003</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Member of Helsinki University's Initiative for the Evaluation of XML retrieval research group <acronym>INEX</acronym></para></listitem>
+	<listitem><para>Implemented an XML search engine in Python and C</para></listitem>
+	<listitem><para>Performed data mining on very large data sets</para></listitem>
+  </itemizedlist>
+
+    </section>
+
+    <section>
+      <title>Telering Finland (part of the Sonera/Telia Group)</title>
+    <para><emphasis>Architect role from January to June 2002</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Worked in a team</para></listitem>
+	<listitem><para>Produced design documents with IBM engineering procedures(WPD)</para></listitem>
+	<listitem><para>Deployed RosettaNET standards(XML)</para></listitem>
+	<listitem><para>Developed on and administered the IBM Websphere(WAS) platform</para></listitem>
+	<listitem><para>Implemented forecasting and inventory visibility tool prototype with Java servlets</para></listitem>
+  </itemizedlist>
+
+
+
+    </section>
+
+    <section>
+      <title>Siemens Finland</title>
+    <para><emphasis>Unix administrator, troubleshooter roles from June to September 2001</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Siemens system support</para></listitem>
+	<listitem><para>Customer (telecommunications) service on site</para></listitem>
+	<listitem><para>Bash/Perl scripting to monitor SINUX systems</para></listitem>
+	<listitem><para>Performed updates (kernel building, patching)</para></listitem>
+	<listitem><para>Administered several test machines (SINUX and Sun OS)</para></listitem>
+	<listitem><para>Maintained Informix DBMS</para></listitem>
+  </itemizedlist>
+
+
+    </section>
+
+
+    <section>
+      <title>CH Solutions</title>
+    <para><emphasis>Technical lead from February to October 1998</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Designed and built server systems</para></listitem>
+	<listitem><para>Software deployment and configuration</para></listitem>
+	<listitem><para>Quality Assurance management</para></listitem>
+	<listitem><para>Technical support</para></listitem>
+	<listitem><para>Purchasing</para></listitem>
+  </itemizedlist>
+
+
+
+    </section>
+
+</section>
+
+  <section>
+
+    <title>Education</title>
+
+    <section>
+      <title>University of Helsinki</title>
+      <para>
+
+Graduated from a Computer Science Masters program at the Faculty of Science
+with minors in Management, Mathematics, Statistics, German and the Finnish
+language.
+
+      </para>
+    </section>
+
+    <section>
+      <title>University of Bath</title>
+      <para>
+
+    Completed two academic years on a <ulink
+url="http://www.bath.ac.uk/">Computer Information Systems
+<acronym>CIS</acronym> Bachelors of Science (Hons)</ulink> program before
+choosing to transfer to Helsinki.
+
+    </para>
+    </section>
+
+    <section>
+      <title>Matriculation</title>
+      <para><ulink url="http://www.steyning.w-sussex.sch.uk/">Steyning
+Grammar School 6th Form</ulink>, Steyning, West Sussex, UK.</para>
+    </section>
+
+    <section>
+      <title>Schooling</title>
+      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink> Durban, South Africa.</para>
+    </section>
+
+  </section>
+
+</article>
