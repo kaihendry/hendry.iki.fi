@@ -1,14 +1,25 @@
-NAME=panache
+# License: GPL (latest version)                                                                                                                                         
+NAME=cv
 DOCBOOK=$(NAME).xml
 
-txt:
-	docbook2txt $(DOCBOOK)
+all: rtf html ps pdf txt
 
-rtf:
+rtf: $(DOCBOOK)
 	docbook2rtf $(DOCBOOK)
 
-clean:
-	rm -f $(NAME).txt $(NAME).rtf
+html: $(DOCBOOK)
+	docbook2html $(DOCBOOK)
 
-all:
-	txt rtf
+ps: $(DOCBOOK)
+	docbook2ps $(DOCBOOK)
+
+pdf: $(DOCBOOK)
+	docbook2pdf $(DOCBOOK)
+
+txt: $(DOCBOOK)
+	docbook2txt $(DOCBOOK)
+
+clean :
+	rm -f resume.ps resume.pdf resume.txt resume.rtf *.html *.bak *.log
+upload :
+	scp resume.ps resume.pdf resume.txt resume.rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
