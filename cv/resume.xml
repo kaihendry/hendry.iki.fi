@@ -21,10 +21,6 @@
     <listitem>
         <para>Unix administration and troubleshooting</para>
     </listitem>
-    <listitem>
-        <para>Documentation and technical writing</para>
-    </listitem>
-
   </itemizedlist>
 
 </section>
@@ -42,7 +38,7 @@
         <para>Database: MySQL, Postgres, Informix</para>
     </listitem>
 	<listitem>
-        <para>Programming languages: Python, Bash, C, R, Web API (HTML, Javascript et. al.)</para>
+        <para>Programming languages: Python, Bash, C, R, Web API (HTML, Javascript et. al.), Java</para>
     </listitem>
 	<listitem>
         <para>Operating System: Linux, UNIX</para>
@@ -73,7 +69,7 @@
 
   <itemizedlist>
 	<listitem><para>Member of the Research on Distributed and Networked Systems and Applications group</para></listitem>
-	<listitem><para>Gained in depth knowledge of Mobile Web user agents and markup languages</para></listitem>
+	<listitem><para>Gained in depth knowledge of Mobile Web user agents and markup languages (See <ulink url="http://www.cs.helsinki.fi/u/hendry/msc.pdf">Masters Thesis</ulink>)</para></listitem>
 	<listitem><para>Webmaster of group</para></listitem>
   </itemizedlist>
 
@@ -92,11 +88,10 @@
     <para><emphasis>Architect role from January to June 2002</emphasis></para>
 
   <itemizedlist>
-	<listitem><para>Worked in a team</para></listitem>
 	<listitem><para>Produced design documents with IBM engineering procedures(WPD)</para></listitem>
 	<listitem><para>Deployed RosettaNET standards(XML)</para></listitem>
 	<listitem><para>Developed on and administered the IBM Websphere(WAS) platform</para></listitem>
-	<listitem><para>Implemented forecasting and inventory visibility tool prototype with Java servlets</para></listitem>
+	<listitem><para>Implemented forecasting and inventory visibility tool prototype with Java servlets and SVG</para></listitem>
   </itemizedlist>
 
 
@@ -122,14 +117,15 @@
 
     <section>
       <title>CH Solutions</title>
-    <para><emphasis>Technical lead from February to October 1998</emphasis></para>
+    <para><emphasis>Technical lead from February to October 1998 and numerous short contracts</emphasis></para>
 
   <itemizedlist>
 	<listitem><para>Designed and built server systems</para></listitem>
 	<listitem><para>Software deployment and configuration</para></listitem>
 	<listitem><para>Quality Assurance management</para></listitem>
 	<listitem><para>Technical support</para></listitem>
-	<listitem><para>Purchasing</para></listitem>
+	<listitem><para>Hardware Purchasing</para></listitem>
+	<listitem><para>Upgrading machines to Y2K compliance</para></listitem>
   </itemizedlist>
 
 
