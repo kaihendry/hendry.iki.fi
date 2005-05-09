@@ -1,11 +1,14 @@
+# Kai Hendry
 # License: GPL (latest version)                                                                                                                                         
-NAME=cv
+NAME=resume
 DOCBOOK=$(NAME).xml
 
 all: rtf html ps pdf txt
 
 rtf: $(DOCBOOK)
 	docbook2rtf $(DOCBOOK)
+	echo "Making symlink for Word document"
+	ln -s $(NAME).rtf $(NAME).doc
 
 html: $(DOCBOOK)
 	docbook2html $(DOCBOOK)
@@ -20,6 +23,7 @@ txt: $(DOCBOOK)
 	docbook2txt $(DOCBOOK)
 
 clean :
-	rm -f resume.ps resume.pdf resume.txt resume.rtf *.html *.bak *.log
+	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html *.bak *.log
+
 upload :
-	scp resume.ps resume.pdf resume.txt resume.rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
+	scp $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
