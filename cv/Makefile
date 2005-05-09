@@ -7,8 +7,8 @@ all: rtf html ps pdf txt
 
 rtf: $(DOCBOOK)
 	docbook2rtf $(DOCBOOK)
-	echo "Making symlink for Word document"
-	ln -s $(NAME).rtf $(NAME).doc
+	#echo "Making symlink for Word document"
+	#ln -s $(NAME).rtf $(NAME).doc
 
 html: $(DOCBOOK)
 	docbook2html $(DOCBOOK)
