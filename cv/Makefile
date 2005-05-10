@@ -26,4 +26,4 @@ clean :
 	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html *.bak *.log
 
 upload :
-	scp $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
+	scp $(NAME).xml $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
