@@ -65,6 +65,20 @@
  <section>
 
     <title>Work experience</title>
+
+
+    <section>
+      <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink></title>
+    <para><emphasis>Environment/Deployment specialist from May 2004</emphasis></para>
+
+  <itemizedlist>
+	<listitem><para>Setting up a RedHat/JBoss/J2EE/Servlet environment</para></listitem>
+	<listitem><para>Redesigning Web applications to use CSS</para></listitem>
+  </itemizedlist>
+    </section>
+
+
+
     <section>
       <title>University of Helsinki Computer Science Department</title>
     <para><emphasis>Researcher role from December 2003 to August 2004</emphasis></para>
@@ -95,9 +109,6 @@
 	<listitem><para>Developed on and administered the IBM Websphere(WAS) platform</para></listitem>
 	<listitem><para>Implemented forecasting and inventory visibility tool prototype with Java servlets and SVG</para></listitem>
   </itemizedlist>
-
-
-
     </section>
 
     <section>
