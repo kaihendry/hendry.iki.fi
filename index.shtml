@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xml:lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
 
 <head>
   <meta name="author" content="Kai Hendry" />
-  <meta name="copyright" content="&copy; copyright 2004 by Kai Hendry" />
+  <meta name="copyright" content="&copy; copyright 2005 by Kai Hendry" />
   <meta http-equiv="Content-Type" name="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="css/bluegold.css" media="all" />
-  <title>Kai Hendry @ Helsinki</title>
+  <title>Kai Hendry @ World</title>
 
 </head>
 
@@ -19,6 +17,7 @@
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
     <li><a title="hire me" href="cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
+    <li><a href="msc.pdf">Masters Thesis on Web engineering for mobiles</a></li>
     </ul>
 
     <h2>Contact details</h2>
@@ -28,10 +27,7 @@
 		<dd>Kai Ian Hendry</dd>
 
 	<dt>Address</dt>
-		<dd><address>Porthaninkatu 4 B 38, 00530, Helsinki, Finland.</address></dd>
-
-	<dt>Mobile</dt>
-		<dd>+358-40-8367733</dd>
+		<dd><address>Praze Farm, Millpool, Bodmin, Cornwall, PL30 4HZ, UK.</address></dd>
 
 	<dt>Email</dt>
         <dd>
@@ -44,13 +40,6 @@
     <dt><acronym title="Inter Relay Chat">IRC</acronym> nick</dt>
     <dd>hendry on freenode, ircnet and draq on quakenet</dd>
 
-    <dt><a href="http://www.jabber.org">Jabber</a> <acronym title="User Identification">UID</acronym></dt>
-    <dd>
-&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#097;&#109;&#101;&#115;&#115;&#097;&#103;&#101;&#046;&#100;&#101;
-    </dd>
-
-    <dt><abbr title="I seek you">ICQ</abbr> <acronym title="User Identity Number">UIN</acronym></dt>
-    <dd>238(I prefer Jabber peeps)6684</dd>
 </dl>
 
  </body>
