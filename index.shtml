@@ -2,45 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta name="author" content="Kai Hendry" />
-  <meta name="copyright" content="&copy; copyright 2005 by Kai Hendry" />
   <meta http-equiv="Content-Type" name="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/bluegold.css" media="all" />
-  <title>Kai Hendry @ World</title>
-
+  <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="all" />
+  <title>Kai Hendry @ Melbourne</title>
 </head>
 
-<body class="body">
+<body>
 
 	<h1>Kai Hendry's Homepage</h1>
 
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
-    <li><a title="hire me" href="cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
-    <li><a href="msc.pdf">Masters Thesis on Web engineering for mobiles</a></li>
+    <li><a title="hire me" href="http://iki.fi/hendry/cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
+    <li><a href="http://iki.fi/hendry/msc.pdf">Masters Thesis on Web engineering for mobiles</a></li>
     </ul>
 
     <h2>Contact details</h2>
-<dl>
 
+    <dl>
 	<dt>Full Name</dt>
 		<dd>Kai Ian Hendry</dd>
 
-	<dt>Address</dt>
-		<dd><address>Praze Farm, Millpool, Bodmin, Cornwall, PL30 4HZ, UK.</address></dd>
-
 	<dt>Email</dt>
         <dd>
-    &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#099;&#115;&#046;&#104;&#101;&#108;&#115;&#105;&#110;&#107;&#105;&#046;&#102;&#105;
+&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
         </dd>
 
-    <dt><acronym title="GNU Privacy Guard">GPG</acronym>/<acronym title="Pretty Good Privacy">PGP</acronym> Public key</dt>
-        <dd><a href="hendry.pub">gpg --keyserver wwwkeys.pgp.net --recv-keys 22341978</a></dd>
-
     <dt><acronym title="Inter Relay Chat">IRC</acronym> nick</dt>
-    <dd>hendry on freenode, ircnet and draq on quakenet</dd>
+        <dd>hendry on freenode, ircnet and draq on quakenet</dd>
 
-</dl>
+    </dl>
 
- </body>
+</body>
 </html>
