@@ -37,22 +37,19 @@
         <para>Software: Debian, Red Hat, Suse, IBM Websphere</para>
     </listitem>
 	<listitem>
-        <para>Database: MySQL, Postgres, Informix</para>
+        <para>Database: MySQL, Postgres, Informix, Oracle</para>
     </listitem>
 	<listitem>
         <para>Programming languages: Python, Bash (scripts, shell), PHP, C, R, Web API (HTML, Javascript et. al.), Java</para>
     </listitem>
 	<listitem>
-        <para>Operating System: Linux, UNIX</para>
-    </listitem>
-	<listitem>
         <para>Hardware: PC (x86) architecture, Siemens, IBM</para>
     </listitem>
 	<listitem>
-        <para>Network: LAN, Wireless, Security testing</para>
+        <para>Network: Design, Router configuration, LAN, WAN, Wireless, Security testing, SAMBA</para>
     </listitem>
 	<listitem>
-        <para>Internet/Email: DNS, Web server (Apache), SMTP (Postfix, Exim), IMAP (Dovecot), Authentication (LDAP)</para>
+        <para>Internet/Email: DNS, Web server (Apache), SMTP, IMAP, Authentication</para>
     </listitem>
     <listitem>
         <para>Design: Test cases (test driven development), Specification (W3C, WHATWG), Statistic analysis and graphics</para>
@@ -68,7 +65,7 @@
 
 
     <section>
-      <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink></title>
+      <title>Soltec Software</title>
     <para><emphasis>Environment/Deployment specialist from May 2004</emphasis></para>
 
   <itemizedlist>

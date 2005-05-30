@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html lang="en">
+<head>
+  <meta name="author" content="Kai Hendry">
+  <meta name="copyright" content="&copy; copyright 2004 by Kai Hendry">
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <title>Kai Hendry, Curriculum Vitae</title>
+
+</head>
+<body>
+
+<h1>Kai Hendry, Curriculum Vitae</h1>
+
+<p>
+<a href="http://iki.fi/hendry/media/2004/7/kai2004.jpg">A picture of Kai Hendry</a>
+</p>
+
+<pre>
+   a summary of your academic and work history [syn: {curriculum vitae}, {CV}]
+</pre>
+
+<p>Choose your preferred format:</p>
+
+<ul>
+    <li><a href="index.html">HTML</a> - good for following links</li>
+    <li><a href="resume.doc">DOC</a> - the choice for MS Word users</li>
+    <li><a href="resume.txt">TXT</a> - plain text</li>
+    <li><a href="resume.rtf">RTF</a> - for Windows users without Word</li>
+    <li><a href="resume.pdf">PDF</a> - for Adobe fans</li>
+    <li><a href="resume.ps">PS</a> - for Unix fans</li>
+</ul>
+
+
+<p>For the brave:</p>
+
+<ul>
+    <li><a href="resume.xml">XML</a> - Docbook 4.1.2 XML</li>
+</ul>
+
+</body>
+</html>
