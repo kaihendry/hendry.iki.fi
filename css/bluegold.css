@@ -9,6 +9,8 @@ pre { font: 1.5em monospace; color: white; background: black; }
 
 /* Blog prettier */
 .meta {font-size: 60%;}
-.post { float: left; margin: 1%; padding: 1%; border: solid medium #FC0; max-width: 40em;}
-.menu { float: right; margin: 1%; padding: 1%; border: solid medium #FC0; }
+.post { float: left; margin: 2%; padding: 1%; border: solid medium #FC0; max-width: 40em;}
+#sidebar { float: left; margin: 2%; padding: 1%; border: solid medium #FC0; width: 20em;}
+#sidebar ul {list-style: none; }
 img { border: solid medium #FC0; }
+#footer {display: none; }
