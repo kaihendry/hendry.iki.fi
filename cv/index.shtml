@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta name="author" content="Kai Hendry">
-  <meta name="copyright" content="&copy; copyright 2004 by Kai Hendry">
-  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Kai Hendry, Curriculum Vitae</title>
 
@@ -13,14 +12,10 @@
 <h1>Kai Hendry, Curriculum Vitae</h1>
 
 <p>
-<a href="http://iki.fi/hendry/media/2004/7/kai2004.jpg">A picture of Kai Hendry</a>
+   a summary of your academic and work history [syn: {curriculum vitae}, {resume}, {CV}]
 </p>
 
-<pre>
-   a summary of your academic and work history [syn: {curriculum vitae}, {CV}]
-</pre>
-
-<p>Choose your preferred format:</p>
+<h3>Choose your preferred format</h3>
 
 <ul>
     <li><a href="index.html">HTML</a> - good for following links</li>
@@ -31,11 +26,11 @@
     <li><a href="resume.ps">PS</a> - for Unix fans</li>
 </ul>
 
-
-<p>For the brave:</p>
+<h3>For the brave</h3>
 
 <ul>
-    <li><a href="resume.xml">XML</a> - Docbook 4.1.2 XML</li>
+    <li><a href="resume.xml">Docbook 4.1.2 XML source which generated the above formats</a></li>
+    <li><a href="http://iki.fi/hendry/media/2004/7/kai2004.jpg">Photograph of Kai Hendry in 2004</a></li>
 </ul>
 
 </body>

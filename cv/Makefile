@@ -26,4 +26,5 @@ clean :
 	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html *.bak *.log
 
 upload :
+	echo Not used anymore
 	scp $(NAME).xml $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html melkinpaasi.cs.helsinki.fi:public_html/cv
