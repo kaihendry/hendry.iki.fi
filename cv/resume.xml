@@ -66,13 +66,15 @@
 
     <section>
       <title>Soltec Software</title>
-    <para><emphasis>Environment/Deployment specialist from May 2004</emphasis></para>
+    <para><emphasis>Environment/Deployment/Release specialist from May 2004</emphasis></para>
 
   <itemizedlist>
-	<listitem><para>Setting up a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
-	<listitem><para>Redesigning Web applications to use CSS</para></listitem>
-	<listitem><para>Implementing QA practices</para></listitem>
-	<listitem><para>ODBC MYOB Interface</para></listitem>
+	<listitem><para>Setup a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
+	<listitem><para>Redesigned Web applications to use CSS and be browser independent</para></listitem>
+	<listitem><para>Implemented QA practices</para></listitem>
+	<listitem><para>Experience with ODBC MYOB Interface</para></listitem>
+	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
+	<listitem><para>As build master wrote and maintained build scripts in Ant and shell</para></listitem>
   </itemizedlist>
     </section>
 
@@ -151,7 +153,7 @@
     <title>Work experience (unpaid)</title>
 
   <itemizedlist>
-	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Ported in C a random number generator to allow distributed computing for R</ulink></para></listitem>
+	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://www.whatwg.org/specs/web-apps/current-work/">Contributed to WHATWG Web Applications specification</ulink></para></listitem>
 
