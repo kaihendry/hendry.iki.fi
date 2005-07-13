@@ -21,6 +21,7 @@ pdf: $(DOCBOOK)
 
 txt: $(DOCBOOK)
 	docbook2txt $(DOCBOOK)
+	unix2dos $(NAME).txt
 
 clean :
 	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html *.bak *.log
