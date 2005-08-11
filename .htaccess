@@ -1,1 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.cs\.helsinki\.fi
+Rewriterule /u/hendry/^(.+)$ http://hendry.iki.fi/$1 [r=301,nc]
 DirectoryIndex index.shtml index.html
