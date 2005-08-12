@@ -14,6 +14,6 @@ pre { font: 1.5em monospace; color: white; background: black; }
 #sidebar ul {list-style: none; }
 img { border: solid medium #FC0; }
 
-#map {width: 1000px; height: 500px; border: medium solid #FC0;}
+#map {width:95%; height:80%; border: medium solid #FC0;}
 
 #respond, #commentform { clear: both; } 
