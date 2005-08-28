@@ -13,7 +13,3 @@ pre { font: 1.5em monospace; color: white; background: black; }
 #sidebar { float: left; margin: 2%; padding: 1%; border: solid medium #FC0; width: 20em;}
 #sidebar ul {list-style: none; }
 img { border: solid medium #FC0; }
-
-#map {width:95%; height:80%; border: medium solid #FC0;}
-
-#respond, #commentform { clear: both; } 
