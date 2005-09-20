@@ -65,7 +65,7 @@
 
 	<ul>
 		
-		<li>Gauge - <a href="http://db.cs.helsinki.fi/~hendry/cvs/viewcvs.cgi/gauge/">download</a> - with XHTML
+		<li>Gauge - <a href="http://trac.natalian.org/browser/projects/workweb/content/gauge/">download</a> - with XHTML
 		OUTPUT(<a href="gauge.html">sample</a>) for report generation!
 		Now you can print reports or upload them to your webspace</li> 
 
