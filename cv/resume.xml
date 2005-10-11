@@ -8,9 +8,7 @@
       <firstname>Kai</firstname>
       <surname>Hendry</surname>
       <email>hendry@iki.fi</email>
- <affiliation>
  <address><email>test@dabase.com</email></address>
- </affiliation>
     </author>
     <releaseinfo>$Id$</releaseinfo>
   </articleinfo>
@@ -167,7 +165,7 @@
 	<listitem><para><ulink url="http://packages.qa.debian.org/w/wordpress.html">Maintain Wordpress, a weblog manager for Debian</ulink></para></listitem>
 
 	<listitem><para>Administered several machines on the Internet since 2002</para></listitem>
-	<listitem><para>Wrote several Web applications in Python</para></listitem>
+	<listitem><para>Wrote several Web applications in PHP/Python/Bash</para></listitem>
 	<listitem><para>QA for Debian and Skolelinux</para></listitem>
 
 
