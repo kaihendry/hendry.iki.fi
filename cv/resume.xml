@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
          "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 <article>
   <articleinfo>
@@ -8,6 +8,9 @@
       <firstname>Kai</firstname>
       <surname>Hendry</surname>
       <email>hendry@iki.fi</email>
+ <affiliation>
+ <address><email>test@dabase.com</email></address>
+ </affiliation>
     </author>
     <releaseinfo>$Id$</releaseinfo>
   </articleinfo>
@@ -65,16 +68,16 @@
 
 
     <section>
-      <title>Soltec Software</title>
+      <title>Soltec Software, Melbourne, Australia</title>
     <para><emphasis>Environment/Deployment/Release specialist from May 2005</emphasis></para>
 
   <itemizedlist>
-	<listitem><para>Setup a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
+	<listitem><para>Setup and maintain a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
 	<listitem><para>Redesigned Web applications to use CSS and be browser independent</para></listitem>
-	<listitem><para>Implemented QA practices</para></listitem>
+	<listitem><para>Implemented QA practices and introduced by bug tracking software</para></listitem>
 	<listitem><para>Experience with ODBC MYOB Interface</para></listitem>
 	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
-	<listitem><para>As build master wrote and maintained build scripts in Ant and shell</para></listitem>
+	<listitem><para>As build master wrote and maintained automated build scripts in Ant and shell</para></listitem>
   </itemizedlist>
     </section>
 
