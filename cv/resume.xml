@@ -8,7 +8,7 @@
       <firstname>Kai</firstname>
       <surname>Hendry</surname>
       <email>hendry@iki.fi</email>
- <address><email>test@dabase.com</email></address>
+     <address><email>test@dabase.com</email></address>
     </author>
     <releaseinfo>$Id$</releaseinfo>
   </articleinfo>
@@ -64,30 +64,26 @@
 
     <title>Work experience</title>
 
-
     <section>
-      <title>Soltec Software, Melbourne, Australia</title>
+      <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink>, Melbourne, Australia</title>
     <para><emphasis>Environment/Deployment/Release specialist from May 2005</emphasis></para>
 
   <itemizedlist>
-	<listitem><para>Setup and maintain a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
-	<listitem><para>Redesigned Web applications to use CSS and be browser independent</para></listitem>
+	<listitem><para>Setup and maintained a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
+	<listitem><para>Redesigned Web applications to use CSS and to be browser independent</para></listitem>
 	<listitem><para>Implemented QA practices and introduced by bug tracking software</para></listitem>
-	<listitem><para>Experience with ODBC MYOB Interface</para></listitem>
 	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
-	<listitem><para>As build master wrote and maintained automated build scripts in Ant and shell</para></listitem>
+	<listitem><para>Wrote and maintained automated build scripts in Ant and shell</para></listitem>
   </itemizedlist>
     </section>
 
-
-
     <section>
-      <title>University of Helsinki Computer Science Department</title>
+      <title><ulink url="http://www.cs.helsinki.fi/">University of Helsinki Computer Science Department</ulink>, Helsinki, Finland</title>
     <para><emphasis>Researcher role from December 2003 to August 2004</emphasis></para>
 
   <itemizedlist>
 	<listitem><para>Member of the Research on Distributed and Networked Systems and Applications group</para></listitem>
-	<listitem><para>Gained in depth knowledge of Mobile Web user agents and markup languages (See <ulink url="http://www.cs.helsinki.fi/u/hendry/msc.pdf">Masters Thesis</ulink>)</para></listitem>
+	<listitem><para>Gained in depth knowledge of Mobile Web user agents and markup languages (See <ulink url="http://iki.fi/hendry/msc.pdf">Masters Thesis</ulink>)</para></listitem>
 	<listitem><para>Webmaster of group</para></listitem>
   </itemizedlist>
 
@@ -102,7 +98,7 @@
     </section>
 
     <section>
-      <title>Telering Finland (part of the Sonera/Telia Group)</title>
+      <title><ulink url="http://www.telering.net/">Telering Finland</ulink> (part of the Sonera/Telia Group), Helsinki, Finland</title>
     <para><emphasis>Architect role from January to June 2002</emphasis></para>
 
   <itemizedlist>
@@ -114,7 +110,7 @@
     </section>
 
     <section>
-      <title>Siemens Finland</title>
+      <title><ulink url="http://www.siemens.fi/">Siemens Finland</ulink>, Helsinki, Finland</title>
     <para><emphasis>Unix administrator, troubleshooter roles from June to September 2001</emphasis></para>
 
   <itemizedlist>
@@ -131,7 +127,7 @@
 
 
     <section>
-      <title>CH Solutions</title>
+      <title><ulink url="http://www.chsolutions.co.uk">CH Solutions</ulink>, Cornwall, UK</title>
     <para><emphasis>Technical lead from February to October 1998 and numerous short contracts</emphasis></para>
 
   <itemizedlist>
@@ -151,7 +147,7 @@
 
  <section>
 
-    <title>Work experience (unpaid)</title>
+    <title>Work experience (free software)</title>
 
   <itemizedlist>
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
@@ -164,14 +160,13 @@
 
 	<listitem><para><ulink url="http://packages.qa.debian.org/w/wordpress.html">Maintain Wordpress, a weblog manager for Debian</ulink></para></listitem>
 
-	<listitem><para>Administered several machines on the Internet since 2002</para></listitem>
-	<listitem><para>Wrote several Web applications in PHP/Python/Bash</para></listitem>
+	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
+
+	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> in PHP/Python/Bash</para></listitem>
+
 	<listitem><para>QA for Debian and Skolelinux</para></listitem>
 
-
   </itemizedlist>
-
-
 
 
 </section>
@@ -181,7 +176,7 @@
     <title>Education</title>
 
     <section>
-      <title>University of Helsinki</title>
+      <title><ulink url="http://en.wikipedia.org/wiki/University_of_Helsinki">University of Helsinki</ulink>, Helsinki, Finland</title>
       <para>
 
 Graduated from a Computer Science Masters program at the Faculty of Science
@@ -192,7 +187,7 @@ language.
     </section>
 
     <section>
-      <title>University of Bath</title>
+      <title><ulink url="http://en.wikipedia.org/wiki/Bath_University">University of Baths</ulink>, South West England, UK</title>
       <para>
 
     Completed two academic years on a <ulink
@@ -206,12 +201,12 @@ choosing to transfer to Helsinki.
     <section>
       <title>Matriculation</title>
       <para><ulink url="http://www.steyning.w-sussex.sch.uk/">Steyning
-Grammar School 6th Form</ulink>, Steyning, West Sussex, UK.</para>
+Grammar School 6th Form</ulink>, Steyning, West Sussex, UK</para>
     </section>
 
     <section>
       <title>Schooling</title>
-      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink> Durban, South Africa.</para>
+      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink> Durban, South Africa</para>
     </section>
 
   </section>
