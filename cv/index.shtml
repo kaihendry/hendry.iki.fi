@@ -1,11 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <html lang="en">
 <head>
-  <meta name="author" content="Kai Hendry">
-  <meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=UTF-8">
-
   <title>Kai Hendry, Curriculum Vitae</title>
-
 </head>
 <body>
 
@@ -18,7 +14,7 @@
 <h3>Choose your preferred format</h3>
 
 <ul>
-    <li><a href="index.html">HTML</a> - good for following links</li>
+    <li><a href="resume.html">HTML</a> - good for following links</li>
     <li><a href="resume.doc">DOC</a> - the choice for MS Word users</li>
     <li><a href="resume.txt">TXT</a> - plain text</li>
     <li><a href="resume.rtf">RTF</a> - for Windows users without Word</li>

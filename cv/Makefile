@@ -10,8 +10,7 @@ fo: $(DOCBOOK)
 
 rtf: $(DOCBOOK)
 	docbook2rtf $(DOCBOOK)
-	#echo "Making symlink for Word document"
-	#ln -s $(NAME).rtf $(NAME).doc
+	ln -s $(NAME).rtf $(NAME).doc || true
 
 html: $(DOCBOOK)
 	xmlto html-nochunks $(DOCBOOK)
@@ -19,8 +18,8 @@ html: $(DOCBOOK)
 ps: $(DOCBOOK)
 	docbook2ps $(DOCBOOK)
 
-pdf: fo $(DOCBOOK)
-    fop resume.fo $(NAME).pdf
+pdf: fo
+	fop resume.fo $(NAME).pdf
 
 txt: $(DOCBOOK)
 	docbook2txt $(DOCBOOK)
