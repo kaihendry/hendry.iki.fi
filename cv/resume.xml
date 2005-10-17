@@ -8,7 +8,6 @@
       <firstname>Kai</firstname>
       <surname>Hendry</surname>
       <email>hendry@iki.fi</email>
-     <address><email>test@dabase.com</email></address>
     </author>
     <releaseinfo>$Id$</releaseinfo>
   </articleinfo>

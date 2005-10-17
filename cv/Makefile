@@ -5,19 +5,22 @@ DOCBOOK=$(NAME).xml
 
 all: rtf html ps pdf txt
 
+fo: $(DOCBOOK)
+	xmlto fo $(DOCBOOK)
+
 rtf: $(DOCBOOK)
 	docbook2rtf $(DOCBOOK)
 	#echo "Making symlink for Word document"
 	#ln -s $(NAME).rtf $(NAME).doc
 
 html: $(DOCBOOK)
-	docbook2html $(DOCBOOK)
+	xmlto html-nochunks $(DOCBOOK)
 
 ps: $(DOCBOOK)
 	docbook2ps $(DOCBOOK)
 
-pdf: $(DOCBOOK)
-	docbook2pdf $(DOCBOOK)
+pdf: fo $(DOCBOOK)
+    fop resume.fo $(NAME).pdf
 
 txt: $(DOCBOOK)
 	docbook2txt $(DOCBOOK)
