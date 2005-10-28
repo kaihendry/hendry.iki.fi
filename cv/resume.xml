@@ -50,7 +50,7 @@
         <para>Network: Design, Router configuration, LAN, WAN, Wireless, Security testing, SAMBA</para>
     </listitem>
 	<listitem>
-        <para>Internet/Email: DNS, Web server (Apache), SMTP, IMAP, Authentication</para>
+        <para>Internet/Email: DNS, Web server (Apache), SMTP, IMAP, Authentication, CMS/Portal</para>
     </listitem>
     <listitem>
         <para>Design: Test cases (test driven development), Specification (W3C, WHATWG), Statistic analysis and graphics</para>
@@ -65,13 +65,14 @@
     <title>Work experience</title>
 
     <section>
-      <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink>, Melbourne, Australia</title>
-    <para><emphasis>Environment/Deployment/Release specialist from May 2005</emphasis></para>
+      <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink> (Airline software industry), Melbourne, Australia</title>
+    <para><emphasis>Environment/Deployment/Release specialist from May till November 2005</emphasis></para>
 
   <itemizedlist>
-	<listitem><para>Setup and maintained a RedHat/JBoss/J2EE/Servlet/Oracle environment</para></listitem>
+	<listitem><para>Setup and maintained a critical RedHat/JBoss/J2EE/Servlet/Oracle 10g environment</para></listitem>
 	<listitem><para>Redesigned Web applications to use CSS and to be browser independent</para></listitem>
-	<listitem><para>Implemented QA practices and introduced by bug tracking software</para></listitem>
+	<listitem><para>Developed PHP Web applications for generating reports from Oracle Databases</para></listitem>
+	<listitem><para>Implemented QA practices and introduced bug tracking software</para></listitem>
 	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
 	<listitem><para>Wrote and maintained automated build scripts in Ant and shell</para></listitem>
   </itemizedlist>

@@ -18,8 +18,8 @@ html: $(DOCBOOK)
 ps: $(DOCBOOK)
 	docbook2ps $(DOCBOOK)
 
-pdf: fo
-	fop resume.fo $(NAME).pdf
+pdf: 
+	docbook2pdf $(DOCBOOK)
 
 txt: $(DOCBOOK)
 	docbook2txt $(DOCBOOK)
