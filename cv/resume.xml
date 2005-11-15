@@ -8,7 +8,6 @@
       <firstname>Kai</firstname>
       <surname>Hendry</surname>
       <email>hendry@iki.fi</email>
-     <address><email>test@dabase.com</email></address>
     </author>
     <releaseinfo>$Id$</releaseinfo>
   </articleinfo>
@@ -28,45 +27,13 @@
 
 </section>
 
-
- <section>
-
-    <title>Technical skills</title>
-
-  <itemizedlist>
-	<listitem>
-        <para>Software: Debian, Red Hat, Suse, IBM Websphere</para>
-    </listitem>
-	<listitem>
-        <para>Database: MySQL, Postgres, Informix, Oracle</para>
-    </listitem>
-	<listitem>
-        <para>Programming languages: Python, Bash (scripts, shell), PHP, C, R, Web API (HTML, Javascript et. al.), Java</para>
-    </listitem>
-	<listitem>
-        <para>Hardware: PC (x86) architecture, Siemens, IBM</para>
-    </listitem>
-	<listitem>
-        <para>Network: Design, Router configuration, LAN, WAN, Wireless, Security testing, SAMBA</para>
-    </listitem>
-	<listitem>
-        <para>Internet/Email: DNS, Web server (Apache), SMTP, IMAP, Authentication, CMS/Portal</para>
-    </listitem>
-    <listitem>
-        <para>Design: Test cases (test driven development), Specification (W3C, WHATWG), Statistic analysis and graphics</para>
-    </listitem>
-
-  </itemizedlist>
-
-</section>
-
  <section>
 
     <title>Work experience</title>
 
     <section>
       <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink> (Airline software industry), Melbourne, Australia</title>
-    <para><emphasis>Environment/Deployment/Release specialist from May till November 2005</emphasis></para>
+    <para><emphasis>Environment/Deployment/Release specialist from May 2005</emphasis></para>
 
   <itemizedlist>
 	<listitem><para>Setup and maintained a critical RedHat/JBoss/J2EE/Servlet/Oracle 10g environment</para></listitem>
@@ -148,7 +115,7 @@
 
  <section>
 
-    <title>Work experience (free software)</title>
+    <title>Work experience (free software / open source)</title>
 
   <itemizedlist>
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
@@ -163,7 +130,7 @@
 
 	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
 
-	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> in PHP/Python/Bash</para></listitem>
+	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> in PHP/Python/Bash/Ruby</para></listitem>
 
 	<listitem><para>QA for Debian and Skolelinux</para></listitem>
 
@@ -206,7 +173,7 @@ Grammar School 6th Form</ulink>, Steyning, West Sussex, UK</para>
 
     <section>
       <title>Schooling</title>
-      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink> Durban, South Africa</para>
+      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink>, Durban, South Africa</para>
     </section>
 
   </section>
