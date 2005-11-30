@@ -1,25 +1,15 @@
-html { border-top: solid thick #FC0; border-bottom: solid thick #FC0; color: white; background-color: #006; font: 85%/1.2 Verdana, Arial, Helvetica, sans-serif;}
+/* http://hendry.iki.fi/css/bluegold.css
+With thanks to Xiven.com */
+html { border-top: solid thick #FC0; border-bottom: solid thick #FC0; color: white; background-color: #006; 
+       font: 85%/1.2 lucida sans unicode, verdana, arial, helvetica, sans-serif;}
 body { margin: 2%; }
 :link { color: #F63; background: #006; }
 :visited { color: #6CF; background: #006; }
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
 h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
-pre { font: 1.5em monospace; color: white; background: black; }
-
-
-/* Blog prettier */
+pre { font: 1.5em monospace; color: white; background: black; overflow: auto; white-space: pre-wrap;}
 .meta {font-size: 60%;}
-.post { float: left; margin: 2%; padding: 5%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:4em;}
+.post { float: left; margin: 2%; padding: 5%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:4em; }
 #sidebar { float: left; margin: 2%; padding: 2%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:2em;}
 #sidebar ul {list-style: none; }
-img { border: solid medium #FC0; }
-
-/* With thanks to Xiven.com */
-img {
-max-width: 15em;
-}
-
-pre {
-overflow: auto;
-white-space: pre-wrap;
-}
+img { border: solid medium #FC0; max-width: 15em;}
