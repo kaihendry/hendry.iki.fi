@@ -1,7 +1,7 @@
 /* http://hendry.iki.fi/css/bluegold.css
 With thanks to Xiven.com */
 html { border-top: solid thick #FC0; border-bottom: solid thick #FC0; color: white; background-color: #006; 
-       font: 85%/1.2 lucida sans unicode, verdana, arial, helvetica, sans-serif;}
+       font: 85%/1.2 tahoma, verdana, arial, helvetica, sans-serif;}
 body { margin: 2%; }
 :link { color: #F63; background: #006; }
 :visited { color: #6CF; background: #006; }
