@@ -12,4 +12,4 @@ pre { font: 1.5em monospace; color: white; background: black; overflow: auto; wh
 .post { float: left; margin: 2%; padding: 5%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:4em; }
 #sidebar { float: left; margin: 2%; padding: 2%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:2em;}
 #sidebar ul {list-style: none; }
-img { border: solid medium #FC0; max-width: 15em;}
+.post.img { max-width: 15em; border: solid medium #FC0;}
