@@ -7,9 +7,10 @@ body { margin: 2%; }
 :visited { color: #6CF; background: #006; }
 :link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
 h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
+li { margin-bottom: 0.3em; }
 pre { font: 1.5em monospace; color: white; background: black; overflow: auto; white-space: pre-wrap;}
 .meta {font-size: 60%;}
 .post { float: left; margin: 2%; padding: 5%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:4em; }
 #sidebar { float: left; margin: 2%; padding: 2%; border: solid medium #FC0; -moz-column-width:20em; -moz-column-gap:2em;}
 #sidebar ul {list-style: none; }
-.post.img { max-width: 15em; border: solid medium #FC0;}
+.post img { max-width: 15em; border: solid medium #FC0;}
