@@ -15,6 +15,7 @@
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
     <li><a href="http://iki.fi/hendry/cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
     <li><a href="http://iki.fi/hendry/about">About me</a></li>
+    <li><a href="http://maps.natalian.org/">My travels</a></li>
     <li><a href="http://iki.fi/hendry/msc.pdf">Masters Thesis on Web engineering for mobiles</a></li>
     </ul>
 
@@ -34,7 +35,7 @@
         </dd>
 
     <dt><acronym title="Inter Relay Chat">IRC</acronym> nick</dt>
-        <dd>hendry on freenode, ircnet and draq on quakenet</dd>
+        <dd>hendry on freenode</dd>
 
     </dl>
 
