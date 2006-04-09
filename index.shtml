@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" name="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="all" />
   <title>Kai Hendry @ Seoul, South Korea</title>
 </head>
@@ -28,6 +27,9 @@
 
 	<dt>Telephone</dt>
 		<dd>+82 10 3635 7333</dd> 
+
+	<dt>Address</dt>
+		<dd>Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</dd> 
 
 	<dt>Email</dt>
         <dd>
