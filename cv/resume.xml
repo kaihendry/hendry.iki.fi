@@ -18,7 +18,7 @@
 
   <itemizedlist>
 	<listitem>
-        <para>Web application engineering</para>
+        <para>Web application engineering with a focus on mobile devices</para>
     </listitem>
     <listitem>
         <para>Unix administration and troubleshooting</para>
@@ -33,13 +33,13 @@
 
     <section>
       <title><ulink url="http://www.soltecsoftware.com.au/">Soltec Software</ulink> (Airline software industry), Melbourne, Australia</title>
-    <para><emphasis>Environment/Deployment/Release specialist from May 2005 to January 2006</emphasis></para>
+    <para><emphasis>Environment/Deployment/Release manager from May 2005 to January 2006</emphasis></para>
 
   <itemizedlist>
 	<listitem><para>Setup and maintained a critical RedHat/JBoss/J2EE/Servlet/Oracle 10g environment</para></listitem>
 	<listitem><para>Redesigned Web applications to use CSS and to be browser independent</para></listitem>
-	<listitem><para>Developed PHP Web applications for generating reports from Oracle Databases</para></listitem>
-	<listitem><para>Implemented QA practices and introduced bug tracking software</para></listitem>
+	<listitem><para>Developed PHP/Python Web applications for generating reports from Oracle Databases</para></listitem>
+	<listitem><para>Implemented QA practises and introduced bug tracking software</para></listitem>
 	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
 	<listitem><para>Wrote and maintained automated build scripts in Ant and shell</para></listitem>
   </itemizedlist>
@@ -128,9 +128,11 @@
 
 	<listitem><para><ulink url="http://packages.qa.debian.org/w/wordpress.html">Maintain Wordpress, a weblog manager for Debian</ulink></para></listitem>
 
+	<listitem><para><ulink url="http://packages.qa.debian.org/w/webpy.html">Maintain Webpy, Aaron Swartz's Web anti-framework</ulink></para></listitem>
+
 	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
 
-	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> in PHP/Python/Bash/Ruby</para></listitem>
+	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> using PHP/Python/Bash/Ruby</para></listitem>
 
 	<listitem><para>QA for Debian and Skolelinux</para></listitem>
 
