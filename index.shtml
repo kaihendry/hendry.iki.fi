@@ -10,6 +10,7 @@
 
 	<h1>Kai Hendry's Homepage</h1>
 
+
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a></li>
     <li><a href="http://iki.fi/hendry/cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
@@ -20,26 +21,28 @@
 
     <h2>Contact details</h2>
 
-    <dl>
+<span class="vcard">
 
-	<dt>Full Name</dt>
-		<dd>Kai Ian Hendry</dd>
+  <img style="float:left; margin-right:4px" src="http://static.natalian.org/2006-06-04/kai.jpg" alt="photo" class="photo"/>
+<a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
+<div class="tel">+82 10 3635 7333</div>
 
-	<dt>Telephone</dt>
-		<dd>+82 10 3635 7333</dd> 
+ <div class="adr">
 
-	<dt>Address</dt>
-		<dd>Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</dd> 
+  <div class="street-address">Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</div>
 
-	<dt>Email</dt>
-        <dd>
-&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
-        </dd>
+<span class="locality">Seoul</span>
+<div class="country-name">South Korea</div>
+</div>
 
-    <dt><acronym title="Inter Relay Chat">IRC</acronym> nick</dt>
-        <dd>hendry on freenode</dd>
+<br>
 
-    </dl>
+<a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
+">&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
+</a>
+
+</span>
+
 
 </body>
 </html>
