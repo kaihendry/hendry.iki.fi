@@ -29,15 +29,11 @@
 
 <div class="tel">+82 10 3635 7333</div>
 
- <div class="adr">
-
-  <span class="street-address">Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</span>
-
-<span class="locality">Seoul</span>
-<span class="country-name">South Korea</span>
+<div class="adr">
+<div class="street-address">Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</div>
+<div class="locality">Seoul</div>
+<div class="country-name">South Korea</div>
 </div>
-
-<br>
 
 <a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
 ">&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
