@@ -16,14 +16,7 @@
 
     <title>Summary of Qualifications</title>
 
-  <itemizedlist>
-	<listitem>
-        <para>Web application engineering with a focus on mobile devices</para>
-    </listitem>
-    <listitem>
-        <para>Unix administration and troubleshooting</para>
-    </listitem>
-  </itemizedlist>
+<para>Mobile, Web and Linux professional.</para>
 
 </section>
 
@@ -32,26 +25,26 @@
     <title>Work experience</title>
 
     <section>
-      <title><ulink url="http://www.naraworks.com/">Naraworks</ulink> and now <ulink url="http://www.access.co.jp/">Access Seoul</ulink> (Mobile industry), South Korea</title>
+      <title><ulink url="http://www.naraworks.com/">Naraworks</ulink> and now <ulink url="http://www.access.co.jp/">Access Seoul</ulink> (Mobile/embedded software industry), South Korea</title>
 
-    <para><emphasis>Engineer/Consultant from March 2006 to present</emphasis></para>
+    <para><emphasis>Engineer/Consultant/Researcher from March 2006 to present</emphasis></para>
 
   <itemizedlist>
 
     <listitem><para>
-    Created a unique Korean linux derivative based on Ubuntu/Debian
+Created a unique Korean linux derivative based on Ubuntu/Debian
     </para></listitem>
 
 	<listitem><para>
-    Advised and assisted on Access Linux Platform (ALP)
+Advised and assisted on Access Linux Platform (ALP)
     </para></listitem>
 
 	<listitem><para>
-    Compiled report on image decoders and Netfront's faster JPEG decoder
+Compiled report on image decoders and Netfront's faster JPEG decoder
     </para></listitem>
 
 	<listitem><para>
-    Quality Assurance for Netfront document viewer
+Quality Assurance for Netfront document viewer
     </para></listitem>
 
   </itemizedlist>
