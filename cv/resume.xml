@@ -32,7 +32,7 @@
     <title>Work experience</title>
 
     <section>
-      <title><ulink url="http://www.naraworks.com/">Naraworks</ulink> and now <ulink url="http://www.access.co.jp/">Access Seoul</ulink></title>
+      <title><ulink url="http://www.naraworks.com/">Naraworks</ulink> and now <ulink url="http://www.access.co.jp/">Access Seoul</ulink> (Mobile industry), South Korea</title>
 
     <para><emphasis>Engineer/Consultant from March 2006 to present</emphasis></para>
 
@@ -43,15 +43,15 @@
     </para></listitem>
 
 	<listitem><para>
-    Advised on Office and Linux issues
+    Advised and assisted on Access Linux Platform (ALP)
     </para></listitem>
 
 	<listitem><para>
-    Compiled report on Image decoders and Access's faster JPEG decoder
+    Compiled report on image decoders and Netfront's faster JPEG decoder
     </para></listitem>
 
 	<listitem><para>
-    QA for Netfront document viewer
+    Quality Assurance for Netfront document viewer
     </para></listitem>
 
   </itemizedlist>
