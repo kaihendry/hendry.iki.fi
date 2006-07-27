@@ -134,7 +134,7 @@
 
   <itemizedlist>
 
-	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi&comaint=yes">
+	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi">
     Maintain several packages for Debian</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
