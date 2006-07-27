@@ -27,7 +27,7 @@
     <section>
       <title><ulink url="http://www.naraworks.com/">Naraworks</ulink> and now <ulink url="http://www.access.co.jp/">Access Seoul</ulink> (Mobile/embedded software industry), South Korea</title>
 
-    <para><emphasis>Engineer/Consultant/Researcher from March 2006 to present</emphasis></para>
+    <para><emphasis>Engineer/Consultant/Researcher from March 2006 to August 2006</emphasis></para>
 
   <itemizedlist>
 
@@ -37,7 +37,7 @@
 	<listitem><para>Advised and assisted on Access Linux Platform (ALP)
     </para></listitem>
 
-	<listitem><para>Compiled report on image decoders and Netfront's faster JPEG decoder
+	<listitem><para>Compiled report on image decoders and Netfront's optimised JPEG decoder
     </para></listitem>
 
 	<listitem><para>Quality Assurance for Netfront document viewer
@@ -133,23 +133,21 @@
     <title>Work experience (free software / open source)</title>
 
   <itemizedlist>
+
+	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi&comaint=yes">
+    Maintain several packages for Debian</ulink></para></listitem>
+
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://www.whatwg.org/specs/web-apps/current-work/">Contributed to WHATWG Web Applications specification</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://www.mbusiness2005.org/">Paper accepted at the Fourth International Conference on Mobile Business</ulink></para></listitem>
 
-	<listitem><para><ulink url="http://packages.qa.debian.org/m/maradns.html">Maintain Maradns, Simple security-aware Domain Name Service server for Debian</ulink></para></listitem>
-
-	<listitem><para><ulink url="http://packages.qa.debian.org/w/wordpress.html">Maintain Wordpress, a weblog manager for Debian</ulink></para></listitem>
-
-	<listitem><para><ulink url="http://packages.qa.debian.org/w/webpy.html">Maintain Webpy, Aaron Swartz's Web anti-framework</ulink></para></listitem>
-
 	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
 
 	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> using PHP/Python/Bash/Ruby</para></listitem>
 
-	<listitem><para>QA for Debian and Skolelinux</para></listitem>
+	<listitem><para>QA for Debian</para></listitem>
 
   </itemizedlist>
 
@@ -190,7 +188,7 @@ Grammar School 6th Form</ulink>, Steyning, West Sussex, UK</para>
 
     <section>
       <title>Schooling</title>
-      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers, St. Henrys</ulink>, Durban, South Africa</para>
+      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers St. Henrys</ulink>, Durban, South Africa</para>
     </section>
 
   </section>
