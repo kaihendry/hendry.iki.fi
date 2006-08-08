@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
-  <title>Kai Hendry @ Seoul, South Korea</title>
+  <title>Kai Hendry</title>
 </head>
 
 <body>
@@ -31,19 +31,14 @@
 
 <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
 
-<div class="tel">+82 10 3635 7333</div>
-
-<div class="adr">
-<div class="street-address">Closest metro station is: Nambu Bus Terminal on <a href="http://en.wikipedia.org/wiki/Seoul_Subway_Line_3">Seoul Subway line 3</a>, Gangnam area</div>
-<div class="locality">Seoul</div>
-<div class="country-name">South Korea</div>
-</div>
-
 <a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
 ">&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
 </a>
 
 </div>
+
+<div id="footer">
+</div
 
 </body>
 </html>
