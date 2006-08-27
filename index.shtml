@@ -10,7 +10,6 @@
 
 	<h1>Kai Hendry's Homepage</h1>
 
-
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a>
     <a href="http://natalian.org/feed/">
@@ -27,18 +26,22 @@
 
 <div class="vcard">
 
-  <img style="float:left; padding: 0.5em;" src="http://static.natalian.org/2006-06-04/kai.jpg" alt="photo" class="photo"/>
+<img style="float:left; padding: 0.5em;" 
+     src="http://static.natalian.org/2006-06-04/kai.jpg" 
+     alt="photo" class="photo"/>
 
 <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
 
-<a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
-">&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
+<div>
+<a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
+&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
 </a>
+</div>
 
 </div>
 
 <div id="footer">
-</div
+</div>
 
 </body>
 </html>
