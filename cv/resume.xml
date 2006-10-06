@@ -130,18 +130,15 @@
 
  <section>
 
-    <title>Work experience (free software / open source)</title>
+    <title>Voluntary work with <ulink url="http://www.fsf.org/">Free software</ulink></title>
 
   <itemizedlist>
 
-	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi">
-    Maintain several packages for Debian</ulink></para></listitem>
+	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi">Maintain several packages for Debian</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://www.whatwg.org/specs/web-apps/current-work/">Contributed to WHATWG Web Applications specification</ulink></para></listitem>
-
-	<listitem><para><ulink url="http://www.mbusiness2005.org/">Paper accepted at the Fourth International Conference on Mobile Business</ulink></para></listitem>
 
 	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
 
