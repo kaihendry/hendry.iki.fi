@@ -52,7 +52,7 @@
 
   <itemizedlist>
 	<listitem><para>Setup and maintained a critical RedHat/JBoss/J2EE/Servlet/Oracle 10g environment</para></listitem>
-	<listitem><para>Redesigned Web applications to use CSS and to be browser independent</para></listitem>
+	<listitem><para>Updated Web applications to use CSS and to be browser independent</para></listitem>
 	<listitem><para>Developed PHP/Python Web applications for generating reports from Oracle Databases</para></listitem>
 	<listitem><para>Implemented QA practises and introduced bug tracking software</para></listitem>
 	<listitem><para>Performed security testing and implemented security resolutions</para></listitem>
@@ -119,10 +119,7 @@
 	<listitem><para>Quality Assurance management</para></listitem>
 	<listitem><para>Technical support</para></listitem>
 	<listitem><para>Hardware Purchasing</para></listitem>
-	<listitem><para>Upgrading machines to Y2K compliance</para></listitem>
   </itemizedlist>
-
-
 
     </section>
 
@@ -134,7 +131,7 @@
 
   <itemizedlist>
 
-	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi">Maintain several packages for Debian</ulink></para></listitem>
+	<listitem><para><ulink url="http://qa.debian.org/developer.php?login=hendry%40iki.fi">Maintain several packages and other tasks for Debian</ulink></para></listitem>
 
 	<listitem><para><ulink url="http://dirk.eddelbuettel.com/papers/quantian_usenix2004_slides.pdf">Help port in C a random number generator to allow distributed computing for R</ulink></para></listitem>
 
@@ -143,8 +140,6 @@
 	<listitem><para>Administer several machines on the Internet since 2002</para></listitem>
 
 	<listitem><para>Wrote <ulink url="http://trac.natalian.org/browser/projects/">several Web applications</ulink> using PHP/Python/Bash/Ruby</para></listitem>
-
-	<listitem><para>QA for Debian</para></listitem>
 
   </itemizedlist>
 
@@ -179,13 +174,13 @@ choosing to transfer to Helsinki.
 
     <section>
       <title>Matriculation</title>
-      <para><ulink url="http://www.steyning.w-sussex.sch.uk/">Steyning
+      <para><ulink url="http://en.wikipedia.org/wiki/Steyning_Grammar_School">Steyning
 Grammar School 6th Form</ulink>, Steyning, West Sussex, UK</para>
     </section>
 
     <section>
       <title>Schooling</title>
-      <para><ulink url="http://www.sthenrys.kzn.school.za/">Marist Brothers St. Henrys</ulink>, Durban, South Africa</para>
+      <para><ulink url="http://en.wikipedia.org/wiki/St_Henry%27s_Marist_Brothers%27_College">Marist Brothers St. Henrys</ulink>, Durban, South Africa</para>
     </section>
 
   </section>
