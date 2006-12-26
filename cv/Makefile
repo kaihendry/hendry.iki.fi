@@ -1,32 +1,15 @@
 # Kai Hendry
 # License: GPL (latest version)                                                                                                                                         
 NAME=resume
-DOCBOOK=$(NAME).xml
+SRC=$(NAME).html
 
-all: rtf html ps pdf txt
-
-fo: $(DOCBOOK)
-	xmlto fo $(DOCBOOK)
-
-rtf: $(DOCBOOK)
-	docbook2rtf $(DOCBOOK)
-	ln -s $(NAME).rtf $(NAME).doc || true
-
-html: $(DOCBOOK)
-	xmlto html-nochunks $(DOCBOOK)
-
-ps: $(DOCBOOK)
-	docbook2ps $(DOCBOOK)
+all: pdf
 
 pdf: 
-	docbook2pdf $(DOCBOOK)
-
-txt: $(DOCBOOK)
-	docbook2txt $(DOCBOOK)
-	unix2dos $(NAME).txt
+	prince $(SRC)
 
 clean :
-	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html *.bak *.log
+	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.bak *.log
 
 upload :
-	scp $(NAME).xml $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.html hendry.iki.fi:/home/hendry/projects/shopping-list
+	scp $(NAME).pdf *.html hendry.iki.fi:/home/hendry/projects/shopping-list
