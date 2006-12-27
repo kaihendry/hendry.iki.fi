@@ -5,19 +5,15 @@
 </head>
 <body>
 
-<h1>Kai Hendry, Curriculum Vitae</h1>
-
-<p>
-   a summary of your academic and work history [syn: {curriculum vitae}, {resume}, {CV}]
-</p>
+<h1>Kai Hendry, Curriculum Vitae/Resume</h1>
 
 <h2><a href="http://hendry.iki.fi/">Current contact information for Kai Hendry</a></h2>
 
 <h3>Please choose your preferred format</h3>
 
 <ul>
-    <li><a href="resume.html">HTML</a> - good for following links</li>
-    <li><a href="resume.pdf">PDF</a> - for Adobe fans</li>
+    <li><a href="resume.html">HTML</a></li>
+    <li><a href="resume.pdf">PDF</a></li>
 </ul>
 
 </body>
