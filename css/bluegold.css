@@ -1,25 +1,25 @@
 /* http://hendry.iki.fi/css/bluegold.css
 With thanks to Tom Pike and Alan Clements */
 
-body { border-top: solid thick #FC0; border-bottom: solid thick #FC0; 
-       color: white; background-color: #006; 
+body { border-top: solid thick #EBC05A; border-bottom: solid thick #EBC05A; 
+       color: white; background-color: #000033; 
        font: 85%/1.2 tahoma, verdana, arial, helvetica, sans-serif;
        margin: 0em;
 }
 
-:link { color: #F63; background: #006; }
-:visited { color: #6CF; background: #006; }
-:link:active, :visited:active, :link:hover, :visited:hover { color: #FC0; background: black; }
+:link {  color: #FFFFFF; background: #000033; }
+:visited {  color: #FFFF00; background: #000033; }
+:link:active, :visited:active, :link:hover, :visited:hover { color: #FFFF00; background: black; }
 
-h1, h2, h3, h4, h5, h6 { color: #FC0; background: #006;}
+h1, h2, h3, h4, h5, h6 { color: #EBC05A; background: #000033;}
 li { margin-bottom: 0.2em; }
 pre { font: 1.5em monospace; color: white; background: black; overflow: auto; white-space: pre-wrap;}
 .meta {font-size: 60%;}
-.post { float: left; margin: 2%; padding: 2%; border: solid medium #FC0; }
-#sidebar { float: left; margin: 2%; padding: 1%; border: solid medium #FC0; }
+.post { float: left; margin: 2%; padding: 2%; border: solid medium #EBC05A; }
+#sidebar { float: left; margin: 2%; padding: 1%; border: solid medium #EBC05A; }
 
 #sidebar ul {list-style: none; }
-.post img { border: solid medium #FC0;}
+.post img { border: solid medium #EBC05A;}
 .navigation { font-size: 1.5em; }
 
 #footer { clear: both; }
