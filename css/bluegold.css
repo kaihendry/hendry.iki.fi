@@ -5,6 +5,7 @@ body { border-top: solid thick #EBC05A; border-bottom: solid thick #EBC05A;
        color: white; background-color: #000033; 
        font: 85%/1.2 tahoma, verdana, arial, helvetica, sans-serif;
        margin: 0em;
+       padding: 1em;
 }
 
 :link {  color: #FFFFFF; background: #000033; }
