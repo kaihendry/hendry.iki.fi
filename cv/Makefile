@@ -6,7 +6,7 @@ SRC=$(NAME).html
 all: pdf
 
 pdf: 
-	prince $(SRC)
+	prince -s wiki.css $(SRC)
 
 clean :
 	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.bak *.log

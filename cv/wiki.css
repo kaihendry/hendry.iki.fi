@@ -1,0 +1,36 @@
+@page {
+  margin: 7%;
+ @footnotes {
+   border-top: solid black thin;
+   padding: 8pt 0 0 8pt;
+ }
+}
+
+body {
+  font-family: "Bitstream Vera Serif", serif !important;
+  font-size: 9pt !important;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal !important }
+
+#content a.external.text:after, #content a.external.autonumber:after {
+  display: prince-footnote !important;
+  content: " " attr(href) !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul { 
+  list-style-type: disc !important;
+  margin-left: 1.3em !important;
+}
+
+#footer { padding-top: 1em !important }
+#footer ul { 
+  list-style-type: none !important;
+  margin-left: 0 !important;
+}
+#footer li { display: inline !important }
+#footer br { display: none ! important }
+#privacy, #about, #disclaimer { display: none !important }
+
