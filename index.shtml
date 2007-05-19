@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
-  <title>Kai Hendry</title>
+  <title>Kai Hendry in London</title>
 </head>
 
 <body>
@@ -32,6 +32,16 @@
      alt="photo" class="photo"/>
 
 <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
+  <div class="adr">
+        <div class="city">London</div>
+        <div class="postcode">E3 4QJ</div>
+        <div class="country-name">United Kingdom</div>
+  </div>
+
+<div class="tel">
+ <span class="value">+44 7882177974</span>
+</div>
+
 
 <div>
 <a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
@@ -39,8 +49,6 @@
 </a>
 </div>
 
-<div class="tel">
- <span class="value">+44 20 8123 3380</span>
 </div>
 
 </div>
