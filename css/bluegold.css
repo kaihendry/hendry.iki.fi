@@ -3,7 +3,7 @@ With thanks to Tom Pike and Alan Clements */
 
 body { border-top: solid thick #FC0; border-bottom: solid thick #FC0; 
        color: white; background-color: #006; 
-       font: 85%/1.2 tahoma, verdana, arial, helvetica, sans-serif;
+       font-family : "Dejavu Sans", "Bitstream Vera Sans", "Lucida Grande", tahoma, Helvetica, sans-serif;
        margin: 0em;
        padding: 2em;
 }
