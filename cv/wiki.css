@@ -8,10 +8,16 @@
 
 body {
   font-family: "DejaVu Sans";
-  font-size: 9pt !important;
+  font-size: 11pt !important;
 }
 
+h1 { text-align: center; }
+
 h1, h2, h3, h4, h5, h6 { font-weight: normal !important }
+
+h3, h4 { margin-bottom: 0; font-size: 11pt; }
+
+h4 { margin: 0.3em; font-style: italic }
 
 #content a.external.text:after, #content a.external.autonumber:after {
   display: prince-footnote !important;
