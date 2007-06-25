@@ -1,5 +1,5 @@
 # Kai Hendry
-# License: GPL (latest version)                                                                                                                                         
+# License: GPL (latest version)
 NAME=resume
 SRC=$(NAME).html
 
