@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
-
-<head>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
   <title>Kai Hendry in London</title>
 </head>
@@ -13,13 +13,12 @@
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a>
     <a href="http://natalian.org/feed/">
-    <img style="border: none; " src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
+    <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
     </a></li>
     <li><a href="http://iki.fi/hendry/cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
     <li><a href="http://iki.fi/hendry/about">About me</a></li>
     <li><a href="http://webconverger.com">Webconverger</a></li>
     <li><a href="http://maps.natalian.org/">My travels</a></li>
-    <li><a href="http://iki.fi/hendry/msc.pdf">Masters Thesis on Web engineering for mobiles</a></li>
     <li><a href="http://natalian.org/links">More links</a></li>
     </ul>
 
@@ -27,8 +26,8 @@
 
 <div class="vcard">
 
-<img style="float:left; padding: 0.5em;" 
-     src="http://static.natalian.org/2006-06-04/kai.jpg" 
+<img style="float:left; padding: 0.5em;"
+     src="http://static.natalian.org/2006-06-04/kai.jpg"
      alt="photo" class="photo"/>
 
 <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
