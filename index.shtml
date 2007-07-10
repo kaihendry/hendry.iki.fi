@@ -38,7 +38,9 @@
   </div>
 
 <div class="tel">
- <span class="value">+44 7882177974</span>
+ <span class="value">
+    <a href="tel:44-7882177974">+44 7882177974</a>
+ </span>
 </div>
 
 
