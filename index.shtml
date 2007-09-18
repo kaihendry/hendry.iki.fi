@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
-  <title>Kai Hendry in London</title>
+  <title>Kai Hendry</title>
 </head>
 
 <body>
@@ -32,8 +32,6 @@
 
 <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
   <div class="adr">
-        <div class="city">London</div>
-        <div class="postcode">E3 4QJ</div>
         <div class="country-name">United Kingdom</div>
   </div>
 
