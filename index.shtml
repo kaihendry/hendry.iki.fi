@@ -15,7 +15,7 @@
     <a href="http://natalian.org/feed/">
     <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
     </a></li>
-    <li><a href="http://iki.fi/hendry/cv"><acronym title="Curriculum Vitae">CV</acronym></a></li>
+    <li><a href="http://iki.fi/hendry/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
     <li><a href="http://iki.fi/hendry/about">About me</a></li>
     <li><a href="http://webconverger.com">Webconverger</a></li>
     <li><a href="http://maps.natalian.org/">My travels</a></li>
@@ -26,29 +26,35 @@
 
 <div class="vcard">
 
-<img style="float:left; padding: 0.5em;"
-     src="http://static.natalian.org/2006-06-04/kai.jpg"
-     alt="photo" class="photo"/>
+    <div>
+    <img style="float:left; padding: 0.5em;"
+         src="http://static.natalian.org/2006-06-04/kai.jpg"
+         alt="photo" class="photo"/>
+    </div>
 
-<a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
-  <div class="adr">
-        <div class="country-name">United Kingdom</div>
-  </div>
+    <div>
+    <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
+    </div>
 
-<div class="tel">
- <span class="value">
-    <a href="tel:+44-7882177974">+44 7882177974</a>
- </span>
+      <div class="adr">
+            <div class="country-name">United Kingdom</div>
+      </div>
+
+    <div class="tel">
+     <span class="value">
+        <a href="tel:+44-7882177974">+44 7882177974</a>
+     </span>
+    </div>
+
+    <div>
+    <a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
+    &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
+    </a>
+    </div>
+
 </div>
 
-
-<div>
-<a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
-&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
-</a>
-</div>
-
-</div>
+<p>Criminals are using <a href="http://flickr.com/search/?q=passport&w=16105436%40N00">copies of my passport</a> to defraud people. Do not be fooled.</p>
 
 
 <div id="footer">
