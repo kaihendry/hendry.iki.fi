@@ -3,6 +3,11 @@
  <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
+
+    <link rel="openid.server" href="http://www.myopenid.com/server">
+    <link rel="openid.delegate" href="http://hendry.myopenid.com/">
+
+
   <title>Kai Hendry</title>
 </head>
 
