@@ -15,6 +15,12 @@
 
 	<h1>Kai Hendry's Homepage</h1>
 
+    <div style="float: left; padding-right: 4em;">
+<a href="http://www.flickr.com/photos/hendry/2178480619/" title="Mr Orange by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2143/2178480619_a5f8b4f94c.jpg" width="375" height="500" alt="Mr Orange" /></a>
+    </div>
+
+
+
     <ul>
     <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a>
     <a href="http://natalian.org/feed/">
@@ -31,13 +37,7 @@
 
 <div class="vcard">
 
-    <div>
-    <img style="float:left; padding: 0.5em;"
-         src="http://static.natalian.org/2006-06-04/kai.jpg"
-         alt="photo" class="photo"/>
-    </div>
-
-    <div>
+        <div>
     <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
     </div>
 
@@ -59,7 +59,12 @@
 
 </div>
 
-<p>Criminals are using <a href="http://flickr.com/search/?q=passport&w=16105436%40N00">copies of my passport</a> to defraud people. Do not be fooled.</p>
+<p>Criminals are using copies of my passport to defraud people. Do not be fooled.</p>
+
+<p>I have tried contacting the police and mobile.de (where the criminal likes to advertise a VW Bora amongst other cars in my name), though neither respond.</p>
+
+<p>Another tip: Never ever use Western Union. It's likely to be fraudalent.</p>
+
 
 
 <div id="footer">
