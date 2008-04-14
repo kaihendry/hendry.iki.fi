@@ -5,7 +5,7 @@ SRC=$(NAME).html
 
 all: pdf
 
-pdf: 
+pdf:
 	prince --no-embed-fonts --debug -s wiki.css $(SRC)
 
 clean :
