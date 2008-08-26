@@ -21,11 +21,9 @@ pre { font: 1.5em monospace; color: white; background: black; overflow: auto; wh
 #sidebar { float: left; margin: 2%; padding: 1%; border: solid medium #FC0; }
 
 #sidebar ul {list-style: none; }
-.post img { border: solid medium #FC0; float: right; margin: 2em; }
+.post img { border: solid medium #FC0; float: right; margin: 2em; clear: right; }
 .navigation { font-size: 1.5em; }
 
 #footer { clear: both; }
 
 element:before { content: ''; clear: both; }
-
-
