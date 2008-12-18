@@ -7,8 +7,8 @@
     <link rel="openid.server" href="http://www.myopenid.com/server">
     <link rel="openid.delegate" href="http://hendry.myopenid.com/">
 
-
   <title>Kai Hendry</title>
+
 </head>
 
 <body>
@@ -17,14 +17,12 @@
 
     <div style="float: left; padding-right: 4em;">
 
-    <a href="http://www.flickr.com/photos/hendry/2178480619/" title="Mr Orange by Kai Hendry, on Flickr"><img src="http://farm3.static.flickr.com/2143/2178480619_a5f8b4f94c.jpg" width="375" height="500" alt="Mr Orange" /></a>
+    <a href="http://www.flickr.com/photos/hendry/2178480619/" title="Mr Orange by Kai Hendry, on Flickr"><img src="/kai_orange.jpg" width="375" height="500" alt="Kai Hendry" /></a>
 
     </div>
 
-
-
     <ul>
-    <li><a title="a web log about computer stuff" href="http://natalian.org">Blog</a>
+    <li><a title="a web log about mobiles mostly" href="http://natalian.org">Blog</a>
     <a href="http://natalian.org/feed/">
     <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
     </a></li>
@@ -60,8 +58,6 @@
 <p>I have tried contacting the police and mobile.de (where the criminal likes to advertise a VW Bora amongst other cars in my name), though neither respond.</p>
 
 <p>Another tip: Never ever use Western Union. It's likely to be fraudalent.</p>
-
-
 
 <div id="footer">
 </div>

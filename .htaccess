@@ -4,3 +4,4 @@ Rewriterule /u/hendry/^(.+)$ http://hendry.iki.fi/$1 [r=301,nc]
 DirectoryIndex index.shtml index.html
 Redirect /work http://trac.natalian.org/browser/school
 AddDefaultCharset utf-8
+Header set Cache-Control: no-transform
