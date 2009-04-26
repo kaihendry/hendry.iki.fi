@@ -1,15 +1,8 @@
-# Kai Hendry
-# License: GPL (latest version)
-NAME=resume
-SRC=$(NAME).html
+resume.pdf: resume.html
+	prince --no-embed-fonts --debug -s wiki.css resume.html
 
-all: pdf
+clean:
+	rm -f resume.pdf
 
-pdf:
-	prince --no-embed-fonts --debug -s wiki.css $(SRC)
-
-clean :
-	rm -f $(NAME).ps $(NAME).pdf $(NAME).txt $(NAME).rtf *.bak *.log
-
-upload :
-	scp $(NAME).pdf *.html hendry.iki.fi:/home/hendry/projects/shopping-list
+upload: resume.html resume.pdf
+	scp resume.pdf resume.html hendry.iki.fi:/home/hendry/projects/shopping-list
