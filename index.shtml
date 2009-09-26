@@ -17,23 +17,24 @@
 
     <div style="float: left; padding-right: 4em;">
 
-    <a href="http://www.flickr.com/photos/hendry/2178480619/" title="Mr Orange by Kai Hendry, on Flickr"><img src="/kai_orange.jpg" width="375" height="500" alt="Kai Hendry" /></a>
+		<a href="http://www.flickr.com/photos/hendry/3952850546/" title="I've died and gone to heaven by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3507/3952850546_b399df4e49.jpg" width="375" height="500" alt="I've died and gone to heaven" /></a>
 
     </div>
 
     <ul>
-    <li><a title="a web log about mobiles mostly" href="http://natalian.org">Blog</a>
+    <li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a>
     <a href="http://natalian.org/feed/">
     <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
     </a></li>
+	<li><a href="http://www.google.com/profiles/kai.hendry">Google profile</a></li>
+    <li><a href="http://twitter.com/kaihendry">tweet @kaihendry</a></li>
+	<li><a href="http://www.flickr.com/photos/hendry/">Flick Photostream</a></li>
     <li><a href="http://iki.fi/hendry/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
     <li><a href="http://iki.fi/hendry/about">About me</a></li>
     <li><a href="http://webconverger.com">Webconverger</a></li>
     <li><a href="http://maps.natalian.org/">My travels</a></li>
     <li><a href="http://natalian.org/links">More links</a></li>
     </ul>
-
-<script type="text/javascript" src="http://friendfeed.com/embed/status/webconverger?hide_logo=1&amp;width=200"></script><noscript><a href="http://friendfeed.com/webconverger"><img alt="View my FriendFeed" style="border:0;" src="http://friendfeed.com/embed/status/webconverger?hide_logo=1&amp;width=200&amp;format=png"/></a></noscript>
 
     <h2>Contact details</h2>
 
@@ -55,11 +56,14 @@
 
 </div>
 
-<p>Criminals are using copies of my passport to defraud people. Do not be fooled.</p>
+<div style="background: red; color: yellow; font-size: 1.4em;">
+<p>Criminals are using copies of my passport to defraud people. Do not be
+fooled by digital copies of passports!</p>
 
-<p>I have tried contacting the police and mobile.de (where the criminal likes to advertise a VW Bora amongst other cars in my name), though neither respond.</p>
-
-<p>Another tip: Never ever use Western Union. It's likely to be fraudalent.</p>
+<p>I have tried contacting the police and mobile.de (where the criminal likes
+to advertise a VW Bora amongst other cars in my name), though neither
+respond. If you encounter the fraud please report it.</p>
+</div>
 
 <div id="footer">
 </div>
