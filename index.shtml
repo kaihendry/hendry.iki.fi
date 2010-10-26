@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="http://iki.fi/hendry/css/bluegold.css" media="screen">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="http://natalian.org/local.css" media="screen">
 
-    <link rel="openid.server" href="http://www.myopenid.com/server">
-    <link rel="openid.delegate" href="http://hendry.myopenid.com/">
+<link rel="openid.server" href="http://www.myopenid.com/server">
+<link rel="openid.delegate" href="http://hendry.myopenid.com/">
+<style>
+	#footer { clear: both; }
+</style>
 
-  <title>Kai Hendry</title>
+<title>Kai Hendry</title>
 
 </head>
 
 <body>
 
-	<h1>Kai Hendry's Homepage</h1>
+<h1>Kai Hendry's Homepage</h1>
 
-    <div style="float: left; padding-right: 4em;">
+<div style="float: left; padding-right: 4em;">
 
-		<a href="http://www.flickr.com/photos/hendry/3952850546/" title="I've died and gone to heaven by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3507/3952850546_b399df4e49.jpg" width="375" height="500" alt="I've died and gone to heaven" /></a>
+<a href="http://www.flickr.com/photos/hendry/3952850546/" title="I've died and gone to heaven by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3507/3952850546_b399df4e49.jpg" width="375" height="500" alt="I've died and gone to heaven" /></a>
 
-    </div>
+</div>
 
-    <ul>
-    <li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a>
-    <a href="http://natalian.org/feed/">
-    <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
-    </a></li>
-	<li><a href="http://www.google.com/profiles/kai.hendry">Google profile</a></li>
-    <li><a href="http://twitter.com/kaihendry">tweet @kaihendry</a></li>
-	<li><a href="http://www.flickr.com/photos/hendry/">Flick Photostream</a></li>
-    <li><a href="http://iki.fi/hendry/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
-    <li><a href="http://iki.fi/hendry/about">About me</a></li>
-    <li><a href="http://webconverger.com">Webconverger</a></li>
-    <li><a href="http://maps.natalian.org/">My travels</a></li>
-    <li><a href="http://natalian.org/links">More links</a></li>
-    </ul>
+<ul>
+<li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a>
+<a href="http://natalian.org/feed/">
+<img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
+</a></li>
+<li><a href="http://www.google.com/profiles/kai.hendry">Google profile</a></li>
+<li><a href="http://twitter.com/kaihendry">tweet @kaihendry</a></li>
+<li><a href="http://www.flickr.com/photos/hendry/">Kai's photos</a></li>
+<li><a href="http://video.natalian.org/">Kai's videos</a></li>
+<li><a href="http://iki.fi/hendry/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
+<li><a href="http://iki.fi/hendry/about">About me</a></li>
+<li><a href="http://webconverger.com">Webconverger</a></li>
+<li><a href="http://maps.natalian.org/">My travels</a></li>
+<li><a href="http://natalian.org/links">More links</a></li>
+</ul>
 
-    <h2>Contact details</h2>
+<h2>Contact details</h2>
 
 <div class="vcard">
 
-        <div>
-    <a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
-    </div>
+<div>
+<a href="http://hendry.iki.fi" class="fn url">Kai Hendry</a>
+</div>
 
-      <div class="adr">
-            <div class="country-name">United Kingdom</div>
-      </div>
+<div class="adr">
+<div class="country-name">United Kingdom</div>
+</div>
 
-    <div>
-    <a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
-    &#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
-    </a>
-    </div>
+<div>
+<a class="email" href="mailto:&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;">
+&#104;&#101;&#110;&#100;&#114;&#121;&#064;&#105;&#107;&#105;&#046;&#102;&#105;
+</a>
+</div>
 
 </div>
 
 <div style="background: red; color: yellow; font-size: 1.4em;">
 <p>Criminals are using copies of my passport to defraud people. Do not be
 fooled by digital copies of passports!</p>
-
-<p>I have tried contacting the police and mobile.de (where the criminal likes
-to advertise a VW Bora amongst other cars in my name), though neither
-respond. If you encounter the fraud please report it.</p>
 </div>
 
-<div id="footer">
-</div>
+<div id="footer"></div>
 
 </body>
 </html>
