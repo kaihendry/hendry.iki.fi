@@ -20,11 +20,13 @@
 
 <div style="float: left; padding-right: 4em;">
 
-<a href="http://www.flickr.com/photos/hendry/3952850546/" title="I've died and gone to heaven by Kai Hendry, on Flickr"><img src="http://farm4.static.flickr.com/3507/3952850546_b399df4e49.jpg" width="375" height="500" alt="I've died and gone to heaven" /></a>
+<a href="http://www.flickr.com/photos/hendry/6184352171/" title="Enjoying @kamal's @fluentspace in Kuala Lumpur. Surprisingly productive place! by Kai Hendry, on Flickr"><img src="http://farm7.static.flickr.com/6161/6184352171_39abfa0f4a.jpg" width="374" height="500" alt="Enjoying @kamal's @fluentspace in Kuala Lumpur. Surprisingly productive place!"></a>
+
 
 </div>
 
 <ul>
+<li><a title="Mongol Rally 2011 via Iran and the stans" href="http://geekout.org.uk">Geekout</a></li>
 <li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a>
 <a href="http://natalian.org/feed/">
 <img style="border: none;" src="http://static.natalian.org/2006-06-20/feed-icon-32x32.png" alt="RSS icon" />
@@ -33,14 +35,15 @@
 <li><a href="http://twitter.com/kaihendry">tweet @kaihendry</a></li>
 <li><a href="http://www.flickr.com/photos/hendry/">Kai's photos</a></li>
 <li><a href="http://video.natalian.org/">Kai's videos</a></li>
-<li><a href="http://iki.fi/hendry/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
-<li><a href="http://iki.fi/hendry/about">About me</a></li>
+<li><a href="http://hendry.iki.fi/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
+<li><a href="http://hendry.iki.fi/about">About me</a></li>
 <li><a href="http://webconverger.com">Webconverger</a></li>
 <li><a href="http://maps.natalian.org/">My travels</a></li>
 <li><a href="http://natalian.org/links">More links</a></li>
 </ul>
 
 <h2>Contact details</h2>
+
 
 <div class="vcard">
 
@@ -60,10 +63,9 @@
 
 </div>
 
-<div style="background: red; color: yellow; font-size: 1.4em;">
-<p>Criminals are using copies of my passport to defraud people. Do not be
-fooled by digital copies of passports!</p>
-</div>
+<!-- Google Public Location Badge -->
+<iframe src="http://www.google.com/latitude/apps/badge/api?user=-1288002110024858896&type=iframe&maptype=roadmap" width="180" height="300" frameborder="0"></iframe>
+<!-- To disable location sharing, you *must* visit https://www.google.com/latitude/apps/badge and disable the Google Public Location badge. Removing this code snippet is not enough! -->
 
 <div id="footer"></div>
 
