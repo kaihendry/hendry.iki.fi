@@ -2,12 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<!--
 <link rel="stylesheet" type="text/css" href="http://natalian.org/local.css" media="screen">
+-->
 
 <link rel="openid.server" href="http://www.myopenid.com/server">
 <link rel="openid.delegate" href="http://hendry.myopenid.com/">
 <style>
 	#footer { clear: both; }
+	body { position: absolute; width: 100%; font-family: "Helvetica Neue", "Helvetica"; }
 </style>
 
 <title>Kai Hendry</title>
@@ -18,29 +21,29 @@
 
 <h1>Kai Hendry's Homepage</h1>
 
-<div style="float: left; padding-right: 4em;">
-
-<a href="http://www.flickr.com/photos/hendry/6184352171/" title="Enjoying @kamal's @fluentspace in Kuala Lumpur. Surprisingly productive place! by Kai Hendry, on Flickr"><img src="http://farm7.static.flickr.com/6161/6184352171_39abfa0f4a.jpg" width="374" height="500" alt="Enjoying @kamal's @fluentspace in Kuala Lumpur. Surprisingly productive place!"></a>
+<div style="position: absolute; top: 10em; left: 0; width: 50%">
+<embed  style="width: 100%" type="image/svg+xml" src="kaihendry.svg" />
 </div>
 
+<div style="position: absolute; left: 50%">
 <a href="https://twitter.com/kaihendry" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @kaihendry</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <ul>
 <li><a title="Mongol Rally 2011 via Iran and the stans" href="http://geekout.org.uk">Geekout</a></li>
 <li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a></li>
+<li><a href="https://github.com/kaihendry">Github</a></li>
 <li><a href="http://www.flickr.com/photos/hendry/">Kai's photos</a></li>
 <li><a href="http://video.natalian.org/">Kai's videos</a></li>
 <li><a href="http://hendry.iki.fi/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
 <li><a href="http://hendry.iki.fi/about">About me</a></li>
 <li><a href="https://pinboard.in/u:hendry">Pinboard bookmarks</a></li>
-<li><a href="http://webconverger.com">Webconverger</a></li>
+<li><a href="http://webconverger.com">Webconverger</a> (where I work)</li>
 <li><a href="http://maps.natalian.org/">My travels</a></li>
 <li><a href="http://natalian.org/links">More links</a></li>
 </ul>
 
 <h2>Contact details</h2>
-
 
 <div class="vcard">
 
@@ -55,12 +58,12 @@
 </div>
 
 </div>
+</div>
 
-<!-- Google Public Location Badge -->
-<iframe src="http://www.google.com/latitude/apps/badge/api?user=-1288002110024858896&type=iframe&maptype=roadmap" width="180" height="300" frameborder="0"></iframe>
-<!-- To disable location sharing, you *must* visit https://www.google.com/latitude/apps/badge and disable the Google Public Location badge. Removing this code snippet is not enough! -->
 
-<div id="footer"></div>
+<!--
+<input type="button" value="Enable Menus" onClick="Kiosk.enableMenus(); return false;" />
+-->
 
 </body>
 </html>
