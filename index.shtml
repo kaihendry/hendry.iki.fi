@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+<link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1d1be4cd-0bea-4f34-8d38-70a73f7f80bb">
+
+
 <link rel=icon href=kaihendry.svg sizes="any" type="image/svg+xml">
 <style>
 	#footer { clear: both; }
@@ -35,6 +39,8 @@
 <li><a href="https://pinboard.in/u:hendry">Pinboard bookmarks</a></li>
 <li><a href="http://webconverger.com">Webconverger</a> (where I work)</li>
 <li><a href="http://maps.natalian.org/">My travels</a></li>
+<li><a href="http://greptweet.com/">Search your own tweets</a></li>
+<li><a href="http://bus.dabase.com/">Singapore bus arrival times</a> &amp; <a href=http://smrt.dabase.com>MRT map</a></li>
 <li><a href="http://natalian.org/links">More links</a></li>
 </ul>
 
