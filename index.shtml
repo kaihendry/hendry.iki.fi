@@ -5,14 +5,13 @@
 <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
 <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1d1be4cd-0bea-4f34-8d38-70a73f7f80bb">
 
-
 <link rel=icon href=kaihendry.svg sizes="any" type="image/svg+xml">
 <style>
 	#footer { clear: both; }
 	body { position: absolute; width: 100%; font-family: "Helvetica Neue", "Helvetica"; }
 </style>
 
-<title>Kai Hendry</title>
+<title>Kai Hendry 🇩🇪🇫🇮🇿🇦🇬🇧🇲🇾🇲🇨</title>
 
 </head>
 
@@ -32,17 +31,21 @@
 <li><a title="Mongol Rally 2011 via Iran and the stans" href="http://geekout.org.uk">Geekout</a></li>
 <li><a title="a web log about Kai Hendry mostly" href="http://natalian.org">Blog</a></li>
 <li><a href="https://github.com/kaihendry">Github</a></li>
-<li><a href="http://www.flickr.com/photos/hendry/">Kai's photos on Flickr</a> and on <a href=http://instagram.com/kaihendry>Instagram</a></li>
-<li><a href="http://video.natalian.org/">Kai's videos</a> and on <a href=http://www.youtube.com/kaihendry>YouTube</a></li>
+<li><a href="https://www.flickr.com/photos/hendry/">Kai's photos on Flickr</a> and on <a href=http://instagram.com/kaihendry>Instagram</a></li>
+<li>Subscribe to my <a href=https://www.youtube.com/user/kaihendry?sub_confirmation=1>YouTube</a> channel!</li>
 <li><a href="http://hendry.iki.fi/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
 <li><a href="http://hendry.iki.fi/about">About me</a></li>
 <li><a href="https://pinboard.in/u:hendry">Pinboard bookmarks</a></li>
-<li><a href="http://webconverger.com">Webconverger</a> (where I work)</li>
+<li><a href="https://webconverger.com">Webconverger</a></li>
 <li><a href="http://maps.natalian.org/">My travels</a></li>
-<li><a href="http://greptweet.com/">Search your own tweets</a></li>
-<li><a href="http://bus.dabase.com/">Singapore bus arrival times</a> &amp; <a href=http://smrt.dabase.com>MRT map</a></li>
-<li><a href="http://natalian.org/links">More links</a></li>
+<li><a href="https://greptweet.com/">Search your own tweets</a></li>
+<li><a href="https://bus.dabase.com/">Singapore bus arrival times</a> &amp; <a href=http://mrt.dabase.com>MRT map</a></li>
+<li><a href=https://github.com/kaihendry.keys>SSH pubkey</a></li>
 </ul>
+
+<a href="http://stackexchange.com/users/3182">
+	<img src="http://stackexchange.com/users/flair/3182.png" width="208" height="58" alt="profile for Kai Hendry on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Kai Hendry on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+</a>
 
 <h2>Contact details</h2>
 
