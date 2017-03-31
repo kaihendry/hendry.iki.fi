@@ -14,7 +14,7 @@ youtube2.inc:
 	@m4 -PEIinc $< > $@
 	@echo $< →  $@
 
-upload:
+upload: index.html
 	@aws s3 sync --delete --storage-class ${SC} --acl public-read --exclude '*.git/*' . s3://hendry.iki.fi/
 	@aws s3 cp --storage-class ${SC} --acl public-read --cache-control="max-age=86400" kaihendry.svg s3://hendry.iki.fi/
 	@echo Uploaded to http://hendry.iki.fi.s3-website-ap-southeast-1.amazonaws.com/
