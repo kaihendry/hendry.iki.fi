@@ -73,6 +73,20 @@ ul
 </div>
 
 </div>
+
+<p>Your User Agent:
+<code id=uastring></code>
+</p>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+	document.getElementById("uastring").textContent = navigator.userAgent
+	console.log(navigator.userAgent)
+})
+</script>
+
+
+
+
 </div>
 
 m4_include(youtube.inc)
