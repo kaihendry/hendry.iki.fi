@@ -17,7 +17,7 @@ feedparser.parse(url).then((items) => {
   console.log('<ul>')
   items.forEach((item) => {
     // TODO: Quote the link to pass https://validator.w3.org/nu/?doc=https%3A%2F%2Fhendry.iki.fi%2F
-    console.log(`<li><a href=${item.link}>${item.title}</a></li>`)
+    console.log(`<li><a href="${item.link}">${item.title}</a></li>`)
   })
   console.log('</ul></div>')
 }).catch((error) => {
