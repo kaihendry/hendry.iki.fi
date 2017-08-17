@@ -14,22 +14,31 @@ body {
 	padding: 2em;
 	display: grid;
 	grid-template-areas:	"info youtube"
-							"info youtube2";
+		"info youtube2";
 }
 #info {
-  grid-area: info;
+	grid-area: info;
 }
 #youtube {
-  grid-area: youtube;
+	grid-area: youtube;
 }
 #youtube2 {
-  grid-area: youtube2;
+	grid-area: youtube2;
 }
 ul
 {
 	padding: 0;
 	list-style-type: square;
 }
+
+	@media screen and (max-width: 1000px) {
+		body {
+			grid-template-areas: "info"
+				"info"
+				"youtube"
+				"youtube2";
+		}
+	}
 </style>
 <title>Kai Hendry 🇩🇪🇫🇮🇿🇦🇬🇧🇲🇾🇲🇨</title>
 </head>
@@ -85,9 +94,6 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <img src="https://travis-ci.org/kaihendry/hendry.iki.fi.svg?branch=master" alt="Travis built">
-
-
-
 
 </div>
 
