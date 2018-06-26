@@ -4,7 +4,14 @@ node_js:
 before_install:
 - pip install --user awscli
 - export PATH=$PATH:$HOME/.local/bin
+- aws configure set profile.${AWS_PROFILE}.aws_access_key_id $AWS_ACCESS_KEY_ID
+- aws configure set profile.${AWS_PROFILE}.aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+- aws configure set profile.${AWS_PROFILE}.region ap-southeast-1
+- aws configure --profile ${AWS_PROFILE} list
 install:
 - npm i
 script:
 - make upload
+
+env:
+- AWS_PROFILE=mine
