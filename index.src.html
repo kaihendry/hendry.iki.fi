@@ -1,68 +1,14 @@
 <!DOCTYPE html>
-<html amp lang=en>
+<html lang=en>
 <head>
 <meta charset="utf-8">
-<script async src="https://cdn.ampproject.org/v0.js"></script>
-<meta name="viewport" content="width=device-width,minimum-scale=1">
 <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
 <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1d1be4cd-0bea-4f34-8d38-70a73f7f80bb">
 <link rel="canonical" href="https://hendry.iki.fi" />
 <link rel=icon href=kaihendry.svg sizes="any" type="image/svg+xml">
-
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-<style amp-custom>
-
-html { background-color: #F0F8FF; }
-
-body {
-	/* https://www.youtube.com/watch?v=299RZ0d1LQY */
-	font-family: "Segoe UI", "Seravek", sans-serif;
-	background-color: white;
-	min-height: 100vh;
-	position: relative;
-}
-
-@media screen and (min-width: 800px) {
-	body { padding: 7vmin; }
-}
-
-h1, h2, h3, h4, h5, h6 { font-family: "Noto Serif", "Athelas", "Palatino", serif; }
-
-aside { -webkit-text-size-adjust: auto; overflow: hidden; }
-
-pre { overflow: auto; }
-
-.headline { font-size: 2em; }
-
-.index li {
-	display: flex;
-	line-height:1.8;
-}
-
-time {
-	min-width: 4em;
-}
-
-article > p:first-of-type::first-letter { -webkit-initial-letter: 2; initial-letter: 2; }
-
-/* Don't let images overflow */
-img { max-width: 100%; height: auto; }
-
-article {
-	max-width: 50em;
-	position: relative;
-	margin: 0 auto 0;
-	padding: 0 1.5em 3%;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-a { text-decoration: none; }
-
-article video { width: 100% }
-
-footer { width: 50%; align-items: center; display: flex; justify-content: space-around; font-size: 0.8em; margin-left: auto; margin-right: auto; }
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://natalian.org/style.css" rel="stylesheet">
+<style>
 body {
 	margin: 0;
 	padding: 2em;
@@ -103,6 +49,7 @@ ul
 <h3>Business</h3>
 
 <ul>
+<li><a href="https://unee-t.com/">Unee-T property management meets issue tracker</a></li>
 <li><a href="https://goserverless.sg">Singapore based Golang/Serverless/AWS professional services</a></li>
 <li><abbr title="Software as a Service">SaaS</abbr>: <a href="https://webconverger.com">Webconverger</a></li>
 <li><a href="/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
@@ -122,6 +69,10 @@ ul
 <li><a title="Mongol Rally 2011 via Iran and the stans" href="http://geekout.org.uk">Geekout</a></li>
 </ul>
 
+<a href="//stackexchange.com/users/3182">
+	<img src="//stackexchange.com/users/flair/3182.png" width="208" height="58" alt="profile for Kai Hendry on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Kai Hendry on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+</a>
+
 <h2>Contact details</h2>
 
 <div class="vcard">
@@ -137,6 +88,19 @@ ul
 </div>
 
 </div>
+
+<p>Your User Agent:
+<code id=uastring></code>
+</p>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+	document.getElementById("uastring").textContent = navigator.userAgent
+	console.log(navigator.userAgent)
+})
+</script>
+
+<img src="https://travis-ci.org/kaihendry/hendry.iki.fi.svg?branch=master" alt="Travis built">
+
 </div>
 
 m4_include(youtube.inc)

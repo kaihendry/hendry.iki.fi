@@ -16,14 +16,14 @@ youtube2.inc:
 
 upload: index.html
 	@aws configure set preview.cloudfront true
-	@aws s3 sync --delete --storage-class ${SC} \
+	@aws --profile mine s3 sync --delete --storage-class ${SC} \
 		--acl public-read \
 		--exclude "node_modules/*" \
 		--exclude "*.src.html" \
 		--exclude '*.git/*' \
 		. s3://hendry.iki.fi/
 	@echo Uploaded to http://hendry.iki.fi.s3-website-ap-southeast-1.amazonaws.com/
-	@aws cloudfront create-invalidation --distribution-id E1SYBAHZYXXHGM --invalidation-batch "{ \"Paths\": { \"Quantity\": 1, \"Items\": [ \"/*\" ] }, \"CallerReference\": \"$(shell date +%s)\" }"
+	@aws --profile mine cloudfront create-invalidation --distribution-id E1SYBAHZYXXHGM --invalidation-batch "{ \"Paths\": { \"Quantity\": 1, \"Items\": [ \"/*\" ] }, \"CallerReference\": \"$(shell date +%s)\" }"
 
 clean:
 	rm -f index.html *.inc
