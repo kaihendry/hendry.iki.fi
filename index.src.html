@@ -15,12 +15,14 @@ body {
 	font-family: "segoe ui", "seravek", sans-serif;
 	min-height: 100vh;
 	display: grid;
-	grid-template-areas: "info youtube"
-						 "info youtube2";
+	grid-template-areas: "info youtube dabase"
+						 "info youtube2 natalian";
 }
 #info { grid-area: info; }
 #youtube { grid-area: youtube; }
 #youtube2 { grid-area: youtube2; }
+#natalian { grid-area: natalian; }
+#dabase { grid-area: dabase; }
 ul { padding: 0; list-style-type: square; }
 
 @media screen and (max-width: 1000px) {
@@ -28,7 +30,9 @@ ul { padding: 0; list-style-type: square; }
 		grid-template-areas: "info"
 			"info"
 			"youtube"
-			"youtube2";
+			"youtube2"
+			"dabase"
+			"natalian";
 	}
 }
 </style>
@@ -41,7 +45,7 @@ ul { padding: 0; list-style-type: square; }
 <h3>Business</h3>
 
 <ul>
-<li>Consultant services at <a href="https://www.corexpert.sg/">Corexpert Singapore</a></li>
+<li>Cloud Architect at <a href="https://www.corexpert.sg/">Corexpert Singapore</a></li>
 <li><abbr title="Software as a Service">SaaS</abbr>: <a href="https://webconverger.com">Webconverger</a></li>
 <li><a href="/cv"><abbr title="Curriculum Vitae">CV</abbr></a></li>
 <li><a href="https://www.linkedin.com/in/kaihendry">LinkedIn profile</a></li>
@@ -52,8 +56,6 @@ ul { padding: 0; list-style-type: square; }
 <ul>
 <li><a href="https://twitter.com/kaihendry/">twitter</a></li>
 <li><a href="https://www.reddit.com/user/kai/">Reddit</a></li>
-<li><a title="a web log about Kai Hendry mostly" href="https://natalian.org">Non-tech Blog</a></li>
-<li><a title="Kai Hendry's techy scratchings" href="https://dabase.com">Tech blog</a></li>
 <li><a href="https://github.com/kaihendry">Github projects</a></li>
 <li><a href="https://videos.natalian.org/">My Youtube backup</a></li>
 <li><a href="https://www.flickr.com/photos/hendry/">Kai's photos on Flickr</a> and on <a href=https://instagram.com/kaihendry>Instagram</a></li>
@@ -61,7 +63,7 @@ ul { padding: 0; list-style-type: square; }
 <li><a href="https://pinboard.in/u:hendry">Pinboard bookmarks</a></li>
 <li><a href="http://maps.natalian.org/">My travels</a></li>
 <li><a href="/feeds/">RSS feeds I am reading</a></li>
-<li><a href="https://bus.dabase.com/">Singapore bus arrival times</a> &amp; <a href=http://mrt.dabase.com>MRT map</a></li>
+<li><a href="https://bus.dabase.com/">Singapore bus arrival times</a></li>
 <li><a href=https://github.com/kaihendry.keys>SSH pubkey</a></li>
 <li><a title="Mongol Rally 2011 via Iran and the stans" href="//geekout.org.uk">Geekout</a></li>
 </ul>
@@ -102,6 +104,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
 m4_include(youtube.inc)
 m4_include(youtube2.inc)
+m4_include(dabase.inc)
+m4_include(natalian.inc)
 
 </body>
 </html>
