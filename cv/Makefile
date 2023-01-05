@@ -3,3 +3,6 @@ index.html: resume.html index.html.in
 
 resume.html: resume.md
 	markdown resume.md > resume.html
+
+resume.pdf: index.html
+	prince index.html -o resume.pdf
