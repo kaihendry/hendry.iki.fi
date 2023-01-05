@@ -1,8 +1,5 @@
-resume.pdf: resume.html
-	prince --no-embed-fonts resume.html
+index.html: resume.html index.html.in
+	m4 -PEIinc < index.html.in > index.html
 
-view: resume.pdf
-	google-chrome-unstable resume.pdf
-
-clean:
-	rm -f resume.pdf
+resume.html: resume.md
+	markdown resume.md > resume.html
