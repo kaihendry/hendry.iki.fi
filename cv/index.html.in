@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<h1><a href="mailto:hendry+cv@iki.fi">Kai Hendry</a>, Curriculum vitae</h1>
 m4_include(resume.html)
 <hr>
 </body>
