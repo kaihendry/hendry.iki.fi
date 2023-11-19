@@ -5,16 +5,16 @@ SC := "REDUCED_REDUNDANCY"
 all: $(OUTFILES)
 
 youtube.inc:
-	node index.js youtube 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA' > $@
+	./feedgen -link "https://www.youtube.com/user/kaihendry?sub_confirmation=1" 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA' > $@
 
 youtube2.inc:
-	node index.js youtube2 'https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Au4LfcBHxTQR_yLbncrQ' > $@
+	./feedgen -link "https://www.youtube.com/channel/UCE5Au4LfcBHxTQR_yLbncrQ?sub_confirmation=1" 'https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Au4LfcBHxTQR_yLbncrQ' > $@
 
 natalian.inc:
-	node index.js natalian 'http://natalian.org/index.rss' > $@
+	./feedgen -link "https://natalian.org/" 'http://natalian.org/index.rss' > $@
 
 dabase.inc:
-	node index.js dabase 'https://dabase.com/blog/index.xml' > $@
+	./feedgen -link "https://dabase.com" 'https://dabase.com/blog/index.xml' > $@
 
 %.html: %.src.html youtube.inc youtube2.inc natalian.inc dabase.inc
 	@m4 -PEIinc $< > $@
