@@ -1,7 +1,48 @@
-Devops leader with more than 20 years of experience, culminating in delivering
-performant Web applications on the Cloud. Keen on the managed compute trend,
-aka “Serverless”, to drive operational efficiency, simplicity and software
-value delivery.
+Kai takes the Infrastructure Lead role with more than 25 years of experience, culminating in delivering performant Web applications on the Cloud. Keen on the managed compute trend, aka “Serverless”, to drive operational efficiency, simplicity and accelerate software value delivery.
+
+### Leading Learning Management System (LMS)
+
+July 2024 - Feb 2025 | Italy
+
+* Founding member of the Principal team which conducted an assessment and modernisation programme roadmap
+* Lead initial stability team to deliver fixes featuring a custom built Rate limiter and Circuit breaker to control multi-tenanted traffic
+* Created processes to identify bad queries across a large database landscape
+
+Tech Stack:
+AWS, Go, Datadog, MySQL, Nginx (Lua), PHP, Gitlab
+
+### Leading Electronics retailer
+
+April 2024 - June 2024 | Italy
+
+* Modernise Customer Data Platform (Loyalty system) upon GCP
+* Build team & deliver infrastructure target for migration
+
+Tech Stack:
+Google Cloud Platform(GCP), Identity Platform, Terraform
+
+
+### Leading Insurance company
+
+September 2023 - Feb 2024 | UK
+
+* Lead engineer on an API strategy initiative, integrating a unified API across diverse products and brands, enhancing system interoperability and user convenience
+* Engineered a GraphQL implementation on AWS with Lambda resolvers and local stubs, fortified by robust security measures and comprehensive observability, to cultivate an optimized developer experience
+* Collaborated in the development of a CI/CD pipeline using GitHub Actions, enabling efficient and reliable value delivery across environments
+
+Tech Stack:
+AWS, Typescript, Appsync, Cognito
+
+### Government Agency
+
+January 2023 - May 2023 | Singapore
+
+Led the initiative to adopt the managed Gitlab platform to deliver software in a complex on premise & Cloud environment
+Established the “Path to Production”, adopted by at least two teams and complying to strict controls and practices such as Separation of Duties
+Drove adoption of “shift left” security dependency scans & SAST scanning
+
+Tech Stack:
+AWS, Go, Gitlab, Docker
 
 ### Indonesian Digibank
 
