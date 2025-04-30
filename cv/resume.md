@@ -1,4 +1,19 @@
-Kai plays the Infrastructure Lead role with more than 25 years of experience, culminating in delivering performant Web applications on the Cloud. Keen on the potential of AI, developing workflows with AI and evaluating the latest large language models (LLMs) and techniques for increased efficiency.
+Kai is an Infrastructure Engineer with more than 25 years of experience, delivering performant Web applications on the Cloud. Keen on developing workflows with AI and 
+evaluating the latest large language models (LLMs) and techniques for increased efficiency.
+
+## Thoughtworks
+
+Since 2020 I've been working as a Lead Infrastructure consultant at Thoughtworks, a global premier software consultancy specialising in  Design, Engineering & AI.
+
+### Data Science Platform at Airline
+
+Feb 2025 - Present | London
+
+* Delivering Data Science Platform capabilites on AWS
+* Improving developer productivity
+
+Tech Stack:
+AWS, Python, Airflow, dbt, Snowflake
 
 ### Leading Learning Management System (LMS)
 
@@ -19,7 +34,7 @@ April 2024 - June 2024 | Italy
 * Built team & delivered infrastructure target for migration
 
 Tech Stack:
-Google Cloud Platform(GCP), Identity Platform, Terraform, Python, Bigquery
+Google Cloud Platform (GCP), Identity Platform, Terraform, Python, Bigquery
 
 ### Leading Insurance company
 
@@ -41,7 +56,7 @@ January 2023 - May 2023 | Singapore
 * Drove adoption of “shift left” security dependency scans & SAST scanning
 
 Tech Stack:
-AWS, Go, Gitlab, Docker, Kubernetes, Terraform
+AWS, Go, Gitlab, Docker, Terraform
 
 ### Indonesian Digibank
 
@@ -61,7 +76,7 @@ August 2021 - April 2022 | Singapore
 * The initial code base lacked tests and was difficult to work on and observe. Lead the drive to improve the quality of the stack with structured logging, test tools, unit tests, canaries, metrics and alarms, so we could observe issues with the networked dependencies
 
 Tech Stack:
-AWS, Javascript, Terraform, Serverless, Observability, Docker, Kubernetes
+AWS, Javascript, Terraform, Serverless, Observability
 
 ### Self-driving car company
 
@@ -91,7 +106,7 @@ February 2020 - November 2020 | Singapore
 * Pre-sales on large complex cloud migrations for Digital transformation
 
 Tech Stack:
-AWS, GCP, Cloud, Backup, DRP, Docker, Kubernetes, Terraform
+AWS, GCP, Cloud, Backup, DRP, Docker, Terraform
 
 ### Senior Engineer in Digital Science Platform in ‘Gojek’
 
@@ -111,7 +126,7 @@ March 2018 - October 2019 | Singapore
 * Built serverless microservices with Golang, documented in Postman to smooth over integration points between frontend and backend
 
 Tech Stack:
-AWS, Go, Docker, Kubernetes
+AWS, Go, Docker, Mysql
 
 ### Senior devops at Video streaming company ‘Spuul’
 
@@ -123,7 +138,7 @@ June 2016 - March 2018 | Singapore
 * Wrote Vue.JS / AWS JS SDK serverless app to ingest video with metadata
 
 Tech Stack:
-ffmpeg, AWS, Go, HTML, Javascript (JS), Docker, Kubernetes
+ffmpeg, AWS, Go, HTML, Javascript (JS), Docker
 
 ### Managing Director of ‘Webconverger’, the Browser Linux distribution
 
@@ -134,7 +149,7 @@ February 2012 - March 2016 | London/Singapore
 * Consistently patch the system for upto 5000 machines without down time
 
 Tech Stack:
-Linux, shell, git, Docker, Kubernetes
+Linux, shell, git
 
 ### Compliance Process Manager at Telecoms Joint venture ‘WAC’
 
@@ -146,7 +161,7 @@ July 2010 - February 2012 | London
 * Presented and represented the company at the Mobile World Congress stand
 
 Tech Stack:
-Web browsers, mobile, Docker, Kubernetes
+Web browsers, mobile
 
 ### Senior developer at Japanese mobile company ‘Aplix’
 
@@ -158,7 +173,7 @@ August 2007 - July 2010 | Guildford, Surrey
 * System administrator for our source control, Bug Tracking System (BTS) and services
 
 Tech Stack:
-Javascript, PHP, Make, C, Shell, Standards processes, Docker, Kubernetes
+Javascript, PHP, Make, C, Shell, Standards processes
 
 ## Skills
 
