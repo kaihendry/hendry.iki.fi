@@ -4,9 +4,9 @@ Infrastructure Delivery specialist with more than 25 years of experience. Keen o
 
 December 2020 - Present | UK
 
-* Leading and mentoring high performing teams
-* Accelerating delivery implementing [Sensible Defaults](https://www.thoughtworks.com/en-gb/insights/topic/sensible-defaults)
-* Reducing operational overhead with managed services
+* Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation.
+* Enhanced system reliability and accelerated delivery by implementing [Sensible Defaults](https://www.thoughtworks.com/en-gb/insights/topic/sensible-defaults).
+* Reduced operational overhead and improved efficiency through strategic adoption of managed services.
 
 Tech Stack: 
 AWS, GCP, Go, Kubernetes, Javascript, Serverless, Terraform, Github, Gitlab
@@ -15,9 +15,9 @@ AWS, GCP, Go, Kubernetes, Javascript, Serverless, Terraform, Github, Gitlab
 
 February 2020 - November 2020 | Singapore
 
-- Operational resilience - designing and implementing Cloud based backup and
-  disaster recovery for clients
-- Cost optimisation on cloud bills from GCP/AWS to save clients money
+- Enhanced operational resilience by designing and implementing robust cloud-based backup and
+  disaster recovery solutions for clients.
+- Achieved significant cost optimisation on cloud bills from GCP/AWS to save clients money.
 - Pre-sales on large complex cloud migrations for Digital transformation
 
 Tech Stack:
@@ -29,8 +29,7 @@ October 2009 – January 2020 | Singapore
 
 - Developed a process to label new instances to produce costing reports via
   parameterised Jupyter Notebooks
-- Instrumented, exported and produced dashboards/alerts in the Jsonnet data
-  templating language for Grafana with Prometheus and Go language
+- Improved system visibility and proactive issue detection by instrumenting, exporting, and producing dashboards/alerts using Jsonnet, Grafana, Prometheus, and Go.
 
 Tech Stack:
 Machine Learning (AI), Prometheus, Grafana, Go
@@ -39,10 +38,8 @@ Machine Learning (AI), Prometheus, Grafana, Go
 
 March 2018 - October 2019 | Singapore
 
-- Built a Continuous Integration (CI/CD) pipeline to deploy Docker containers
-  with Travis CI on AWS ECS via Github
-- Built serverless microservices with Golang, documented in Postman to
-  smooth over integration points between frontend and backend
+- Engineered and automated a CI/CD pipeline for deploying Docker containers on AWS ECS, enhancing deployment reliability and frequency.
+- Developed serverless microservices in Golang, focusing on robust integration and operational stability.
 
 Tech Stack:
 AWS, Go, Docker
@@ -51,12 +48,9 @@ AWS, Go, Docker
 
 June 2016 - March 2018 | Singapore
 
-- Administrated a complex multi-region fault tolerant and scalable service on
-  AWS infrastructure
-- Created internal tools leveraging AWS SDK Golang V2 to roll out of ~150
-  channels on AWS Elemental media{live,package}
-- Wrote the {static site, playlist} generator in Golang to deliver video over
-  the AWS CDN faster and with more rendition features
+- Ensured high availability and scalability by administrating a complex multi-region, fault-tolerant service on AWS.
+- Developed operational tooling using AWS SDK Golang V2 to automate the rollout of ~150 channels on AWS Elemental media services, improving efficiency and consistency.
+- Authored a Golang-based static site and playlist generator to optimize video delivery over AWS CDN, enhancing performance and feature set
 - Wrote Vue.JS / AWS JS SDK serverless app to ingest video with metadata
 
 Tech Stack:
@@ -66,11 +60,9 @@ ffmpeg, AWS, Go, HTML, Javascript (JS)
 
 February 2012 - March 2016 | London/Singapore
 
-- Designed, developed and maintains the leading open source Web kiosk & signage
-  distribution based on our own innovative gitfs technology
-- Implemented subscription and one off billing with Stripe and a powerful
-  configuration / device management service for Webconverger deployments
-- Consistently patch the system for upto 5000 machines without down time
+- Designed, developed, and maintained a leading open-source Web kiosk distribution, ensuring system reliability and security.
+- Implemented a configuration and device management service, enabling scalable deployments.
+- Maintained system uptime across ~5000 machines through consistent patching and robust operational processes, demonstrating expertise in managing systems at scale.
 
 Tech Stack:
 Linux, shell, git
@@ -108,8 +100,12 @@ Javascript, PHP, Make, C, Shell, Standards processes
 ## Skills
 
 - Certifications: [AWS Certified Professional](https://www.youracclaim.com/users/khendry/badges)
+- Cloud Platforms: AWS, GCP
+- Infrastructure & Automation: Kubernetes, Docker, Terraform, CI/CD, Infrastructure as Code (IaC)
 - Programming Languages: Go, Shell, Javascript
-- Distributed Computing: Web (REST), Event driven design
+- Observability & Monitoring: Prometheus, Grafana
+- System Reliability: Operational Tooling, Scalability, Fault Tolerance, Disaster Recovery
+- Distributed Computing: Web (REST), Event-driven design
 - Data stores: S3, DynamoDB, SQL
 - Tools: vim, git, Make
 - Servers: Debian/Ubuntu/AWS or any Unix/Linux system
@@ -125,4 +121,3 @@ Javascript, PHP, Make, C, Shell, Standards processes
 ## Presentations
 
 - [https://www.youtube.com/user/kaihendry](https://www.youtube.com/user/kaihendry)
-- [https://www.engineers.sg/presenter/kaihendry](https://www.engineers.sg/presenter/kaihendry)
