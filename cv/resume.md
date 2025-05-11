@@ -1,10 +1,10 @@
-Devops Delivery with more than 25 years of experience. Keen on the managed compute trend of the Cloud, to drive operational efficiency, simplicity and continuous software value delivery.
+Infrastructure Delivery specialist with more than 25 years of experience. Keen on the managed compute trend of the Cloud, to drive operational efficiency, simplicity and continuous software value delivery.
 
 ### Infrastructure Lead at Thoughtworks
 
 December 2020 - Present | UK
 
-* Lead and mentored high performing teams
+* Leading and mentoring high performing teams
 * Accelerating delivery implementing [Sensible Defaults](https://www.thoughtworks.com/en-gb/insights/topic/sensible-defaults)
 * Reducing operational overhead with managed services
 
