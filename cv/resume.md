@@ -4,11 +4,12 @@ Infrastructure Delivery specialist with more than 25 years of experience. Keen o
 
 December 2020 - Present | UK
 
-* Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation.
-* Enhanced system reliability and accelerated delivery by implementing [Sensible Defaults](https://www.thoughtworks.com/en-gb/insights/topic/sensible-defaults).
-* Reduced operational overhead and improved efficiency through strategic adoption of managed services.
+* Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation
+* Partnering with AWS services to secure record funding for client projects and ensuring best practices
+* Reduced operational overhead and improved efficiency & time to market through strategic adoption of managed services
+* Grow the Infrastructure discipline, inside the company and out, contributing learning materials and videos
 
-Tech Stack: 
+Tech Stack:
 AWS, GCP, Go, Kubernetes, Javascript, Serverless, Terraform, Github, Gitlab
 
 ### AWS Cloud practice lead, ‘Teamwork/Corexpert’ consultancy
