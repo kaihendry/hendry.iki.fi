@@ -16,7 +16,7 @@ jobs:
     name: Build homepage and deploy
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v6
       - run: go build -o feedgen
       - uses: aws-actions/configure-aws-credentials@v4
         with:
