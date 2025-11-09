@@ -1,18 +1,18 @@
-Infrastructure Delivery specialist with more than 25 years of experience. Keen on the managed compute trend of the Cloud, to drive operational efficiency, simplicity and continuous software value delivery.
+An Infrastructure Delivery specialist with more than 25 years of experience. Keen on the managed compute trend of the Cloud, to drive operational efficiency, simplicity and continuous software value delivery.
 
 ### Infrastructure Lead at Thoughtworks
 
 December 2020 - Present | UK
 
-* Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation
-* Partnering with AWS services to secure record funding for client projects and ensuring best practices
-* Reduced operational overhead and improved efficiency & time to market through strategic adoption of managed services
-* Grow the Infrastructure discipline, inside the company and out, contributing learning materials and videos
+- Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation
+- Partnered with AWS to secure record funding for client projects and ensuring best practices
+- Reduced operational overhead and improved efficiency & time to market through strategic adoption of managed services
+- Grow the Infrastructure discipline, inside the company and out, contributing learning materials and videos
 
 Tech Stack:
-AWS, GCP, Go, Kubernetes, Javascript, Serverless, Terraform, Github, Gitlab
+AWS, GCP, Go, Kubernetes, JavaScript, Serverless, Terraform, GitHub, GitLab
 
-### AWS Cloud practice lead, ‘Teamwork/Corexpert’ consultancy
+### AWS Cloud Practice Lead, Teamwork/Corexpert consultancy
 
 February 2020 - November 2020 | Singapore
 
@@ -24,18 +24,18 @@ February 2020 - November 2020 | Singapore
 Tech Stack:
 AWS, GCP, Cloud, Backup, Disaster Recovery Planning (DRP)
 
-### Senior Engineer in Digital Science Platform in ‘Gojek’
+### Senior Engineer in Digital Science Platform in Gojek
 
-October 2009 – January 2020 | Singapore
+October 2019 – January 2020 | Singapore
 
 - Developed a process to label new instances to produce costing reports via
   parameterised Jupyter Notebooks
-- Improved system visibility and proactive issue detection by instrumenting, exporting, and producing dashboards/alerts using Jsonnet, Grafana, Prometheus, and Go.
+- Improved system observability and proactive issue detection by instrumenting, exporting, and producing dashboards/alerts using Jsonnet, Grafana, Prometheus, and Go.
 
 Tech Stack:
 Machine Learning (AI), Prometheus, Grafana, Go
 
-### Devops lead at Property Management startup ‘Unee-T’
+### Devops lead at Property Management startup Unee-T
 
 March 2018 - October 2019 | Singapore
 
@@ -45,7 +45,7 @@ March 2018 - October 2019 | Singapore
 Tech Stack:
 AWS, Go, Docker
 
-### Senior devops at Video streaming company ‘Spuul’
+### Senior devops at Video streaming company Spuul
 
 June 2016 - March 2018 | Singapore
 
@@ -55,9 +55,9 @@ June 2016 - March 2018 | Singapore
 - Wrote Vue.JS / AWS JS SDK serverless app to ingest video with metadata
 
 Tech Stack:
-ffmpeg, AWS, Go, HTML, Javascript (JS)
+ffmpeg, AWS, Go, HTML, JavaScript (JS)
 
-### Managing Director of ‘Webconverger’, the Browser Linux distribution
+### Managing Director of Webconverger, the Browser Linux distribution
 
 February 2012 - March 2016 | London/Singapore
 
@@ -68,7 +68,7 @@ February 2012 - March 2016 | London/Singapore
 Tech Stack:
 Linux, shell, git
 
-### Compliance Process Manager at Telecoms Joint venture ‘WAC’
+### Compliance Process Manager at Telecoms Joint venture WAC
 
 July 2010 - February 2012 | London
 
@@ -83,7 +83,7 @@ July 2010 - February 2012 | London
 Tech Stack:
 Web browsers, mobile
 
-### Senior developer at Japanese mobile company ‘Aplix’
+### Senior developer at Japanese mobile company Aplix
 
 August 2007 - July 2010 | Guildford, Surrey
 
@@ -96,14 +96,14 @@ August 2007 - July 2010 | Guildford, Surrey
   services
 
 Tech Stack:
-Javascript, PHP, Make, C, Shell, Standards processes
+JavaScript, PHP, Make, C, Shell, Standards processes
 
 ## Skills
 
-- Certifications: [AWS Certified Professional](https://www.youracclaim.com/users/khendry/badges)
+- Certifications: [AWS Certified Professional](https://www.credly.com/users/khendry/badges)
 - Cloud Platforms: AWS, GCP
 - Infrastructure & Automation: Kubernetes, Docker, Terraform, CI/CD, Infrastructure as Code (IaC)
-- Programming Languages: Go, Shell, Javascript
+- Programming Languages: Go, Shell, JavaScript
 - Observability & Monitoring: Prometheus, Grafana
 - System Reliability: Operational Tooling, Scalability, Fault Tolerance, Disaster Recovery
 - Distributed Computing: Web (REST), Event-driven design
