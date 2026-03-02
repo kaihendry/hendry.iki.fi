@@ -1,7 +1,7 @@
 all: index.html resume.pdf
 
 resume.pdf: index.html
-	prince index.html -o resume.pdf
+	weasyprint index.html resume.pdf
 
 resume.html: resume.md
 	markdown resume.md > resume.html

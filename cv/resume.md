@@ -8,9 +8,9 @@ scale.
 December 2020 - Present | UK
 
 - Leading and growing high-performing engineering teams, fostering a culture of simplicity, reliability and innovation
-- Partnered with AWS to secure record funding for client projects and ensuring best practices
+- Partnered with AWS to secure record funding for client projects and ensure best practices
 - Reduced operational overhead and improved efficiency & time to market through strategic adoption of managed services
-- Grow the Infrastructure discipline, inside the company and out, contributing learning materials and videos
+- Grew the Infrastructure discipline, inside the company and out, contributing learning materials and videos
 
 Tech Stack:
 AWS, GCP, Go, Kubernetes, JavaScript, Serverless, Terraform, GitHub, GitLab
@@ -22,7 +22,7 @@ February 2020 - November 2020 | Singapore
 - Enhanced operational resilience by designing and implementing robust cloud-based backup and
   disaster recovery solutions for clients.
 - Achieved significant cost optimisation on cloud bills from GCP/AWS to save clients money.
-- Pre-sales on large complex cloud migrations for Digital transformation
+- Pre-sales on large complex cloud migrations for digital transformation
 
 Tech Stack:
 AWS, GCP, Cloud, Backup, Disaster Recovery Planning (DRP)
@@ -81,7 +81,6 @@ July 2010 - February 2012 | London
 - Designed test result reporting system for members and vendors to track their
   compliance progress
 - Presented and represented the company at the Mobile World Congress stand
-- integration points between frontend and backend
 
 Tech Stack:
 Web browsers, mobile
@@ -92,7 +91,7 @@ August 2007 - July 2010 | Guildford, Surrey
 
 - Developing and testing the WebVM browser plugin for exposing device APIs
   securely on mobile devices
-- Active in OMTP BONDI, W3C DAP and W3C widgets working groups
+- Contributed to OMTP BONDI, W3C DAP and W3C widgets working groups
 - QA for the SDK, an Eclipse based IDE for BONDI widgets and an emulator
   runtime
 - System administrator for our source control, Bug Tracking System (BTS) and
