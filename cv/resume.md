@@ -1,10 +1,13 @@
-An Infrastructure Delivery specialist with more than 25 years of experience. Keen on the managed compute trend of the Cloud, to drive operational efficiency, simplicity and continuous software value delivery.
+AI-focused Infrastructure Leader with 25+ years of delivery experience. A
+cross-domain generalist who applies AI to modern software engineering —
+enabling teams, automating workflows, and accelerating high-quality delivery at
+scale.
 
 ### Infrastructure Lead at Thoughtworks
 
 December 2020 - Present | UK
 
-- Leading and mentoring high-performing engineering teams, fostering a culture of reliability and innovation
+- Leading and growing high-performing engineering teams, fostering a culture of simplicity, reliability and innovation
 - Partnered with AWS to secure record funding for client projects and ensuring best practices
 - Reduced operational overhead and improved efficiency & time to market through strategic adoption of managed services
 - Grow the Infrastructure discipline, inside the company and out, contributing learning materials and videos
