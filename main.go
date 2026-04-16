@@ -4,6 +4,7 @@ import (
 	"flag"
 	"html/template"
 	"log"
+	"net/http"
 	"os"
 
 	"github.com/mmcdole/gofeed"
@@ -16,6 +17,16 @@ type feedgen struct {
 	Feed *gofeed.Feed
 }
 
+type uaTransport struct {
+	base http.RoundTripper
+}
+
+func (t *uaTransport) RoundTrip(r *http.Request) (*http.Response, error) {
+	r = r.Clone(r.Context())
+	r.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+	return t.base.RoundTrip(r)
+}
+
 func main() {
 	feedgen := &feedgen{}
 	// read -link flag
@@ -24,6 +35,7 @@ func main() {
 	flag.Parse()
 
 	fp := gofeed.NewParser()
+	fp.Client = &http.Client{Transport: &uaTransport{base: http.DefaultTransport}}
 	url := flag.Arg(0)
 	log.Println("parsing", url)
 	var err error
