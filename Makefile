@@ -4,17 +4,19 @@ SC := "REDUCED_REDUNDANCY"
 
 all: $(OUTFILES)
 
+FEEDGEN = ./feedgen -link "$(1)" '$(2)' > $@.tmp && mv $@.tmp $@ || (rm -f $@.tmp && echo '<!-- feed unavailable -->' > $@)
+
 youtube.inc:
-	./feedgen -link "https://www.youtube.com/user/kaihendry?sub_confirmation=1" 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA' > $@
+	$(call FEEDGEN,https://www.youtube.com/user/kaihendry?sub_confirmation=1,https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA)
 
 youtube2.inc:
-	./feedgen -link "https://www.youtube.com/channel/UCE5Au4LfcBHxTQR_yLbncrQ?sub_confirmation=1" 'https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Au4LfcBHxTQR_yLbncrQ' > $@
+	$(call FEEDGEN,https://www.youtube.com/channel/UCE5Au4LfcBHxTQR_yLbncrQ?sub_confirmation=1,https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Au4LfcBHxTQR_yLbncrQ)
 
 natalian.inc:
-	./feedgen -link "https://natalian.org/" 'http://natalian.org/index.rss' > $@
+	$(call FEEDGEN,https://natalian.org/,http://natalian.org/index.rss)
 
 dabase.inc:
-	./feedgen -link "https://dabase.com" 'https://dabase.com/blog/index.xml' > $@
+	$(call FEEDGEN,https://dabase.com,https://dabase.com/blog/index.xml)
 
 %.html: %.src.html youtube.inc youtube2.inc natalian.inc dabase.inc
 	@m4 -PEIinc $< > $@

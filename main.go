@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/mmcdole/gofeed"
 )
@@ -39,7 +40,17 @@ func main() {
 	url := flag.Arg(0)
 	log.Println("parsing", url)
 	var err error
-	feedgen.Feed, err = fp.ParseURL(url)
+	for i, delay := range []time.Duration{0, 5 * time.Second, 15 * time.Second, 30 * time.Second} {
+		if delay > 0 {
+			log.Printf("retry %d after %s", i, delay)
+			time.Sleep(delay)
+		}
+		feedgen.Feed, err = fp.ParseURL(url)
+		if err == nil {
+			break
+		}
+		log.Printf("attempt %d failed: %v", i+1, err)
+	}
 	if err != nil {
 		log.Fatal(err)
 	}
